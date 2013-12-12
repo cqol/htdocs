@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-dp-zz</id>
+    <uuid>3e84ff9a7dea4557888189aca5b41671</uuid>
+    <name>店铺遮罩</name>
+    <file>tshop-um-dp-zz.php</file>
+    <thumbnail>../../assets/images/default-thumbnail.png</thumbnail>
+    <description>店铺遮罩</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>990</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+    </themes>
+    <parameters>
+        <group title="内容设置">
+            <section title="图片1设置" folded="false">
+                <param description="图片宽:412，高：410" formType="text" label="图片地址" name="pic_1" ptype="text" readonly="false">assets/images/pic_01.jpg</param>
+                <param description="与图片对应" formType="text" label="链接地址" name="link1" ptype="text" readonly="false">#</param>
+            </section>
+            <section title="图片2设置" folded="true">
+                <param description="图片宽:578，高：182" formType="text" label="图片地址" name="pic_2" ptype="text" readonly="false">assets/images/pic_02.jpg</param>
+                <param description="与图片对应" formType="text" label="链接地址" name="link2" ptype="text" readonly="false">#</param>
+            </section>
+            <section title="图片3设置" folded="true">
+                <param description="图片宽:289，高：228" formType="text" label="图片地址" name="pic_3" ptype="text" readonly="false">assets/images/pic_03.jpg</param>
+                <param description="与图片对应" formType="text" label="链接地址" name="link3" ptype="text" readonly="false">#</param>
+            </section>
+            <section title="图片4设置" folded="true">
+                <param description="图片宽:289，高：228" formType="text" label="图片地址" name="pic_4" ptype="text" readonly="false">assets/images/pic_04.jpg</param>
+                <param description="与图片对应" formType="text" label="链接地址" name="link4" ptype="text" readonly="false">#</param>
+            </section>
+        </group>
+    </parameters>
+</module>

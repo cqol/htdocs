@@ -1,0 +1,149 @@
+
+.tshop-um-dp-qplb {
+    width: 990px;
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 12;
+}
+
+.tshop-um-dp-qplb .mk_bd {
+    z-index: 12;
+    width: 1920px;
+    height: 620px;
+    margin-left: -485px;
+    position: relative;
+    overflow: hidden;
+}
+
+.tshop-um-dp-qplb .main {
+    width: 1920px;
+    height: 620px;
+    overflow: hidden;
+}
+
+.tshop-um-dp-qplb .main a {
+    width: 1920px;
+    height: 620px;
+    background: url(assets/images/pic_01.jpg) no-repeat center 0;
+    display: block;
+}
+
+.tshop-um-dp-qplb .nav_bg {
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 90;
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+    opacity: 0.5;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=50)";
+}
+
+.tshop-um-dp-qplb .nav {
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    z-index: 91;
+}
+
+.tshop-um-dp-qplb .nav ul {
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.tshop-um-dp-qplb .nav li {
+    background: url(../../assets/images/icons.png) no-repeat -187px -3px;
+    width: 14px;
+    height: 14px;
+    margin: 9px 3px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    float: left;
+    display: inline;
+    cursor: pointer;
+}
+
+.tshop-um-dp-qplb .nav .ks-active {
+    background-position: -173px -3px;
+}
+
+.tshop-um-dp-qplb .nav2 {
+    width: 100%;
+    height: 14px;
+    position: absolute;
+    bottom: 7px;
+    left: 0;
+    z-index: 99;
+}
+
+.tshop-um-dp-qplb .nav2 ul {
+    margin: 0 auto;
+}
+
+.tshop-um-dp-qplb .nav2 li {
+    width: 12px;
+    height: 12px;
+    margin: 0 3px;
+    border-radius: 7px;
+    line-height: 12px;
+    font-size: 12px;
+    font-family: "Î¢ÈíÑÅºÚ";
+    text-align: center;
+    color: #bbb;
+    border: 1px solid #000;
+    background: #151E24;
+    float: left;
+    display: inline;
+    cursor: pointer;
+}
+
+.tshop-um-dp-qplb .nav2 .ks-active {
+    background: #686464;
+}
+
+.tshop-um-dp-qplb .prev, .tshop-um-dp-qplb .next {
+    display: none;
+    width: 31px;
+    height: 74px;
+    background: url(../../assets/images/icons.png) no-repeat;
+    position: absolute;
+    top: 210px;
+    cursor: pointer;
+    z-index: 99;
+}
+.tshop-um-dp-qplb .mk_bd:hover .prev {
+    display: block;
+}
+.tshop-um-dp-qplb .mk_bd:hover .next {
+    display: block;
+}
+
+.tshop-um-dp-qplb .prev {
+    background-position: -311px 0;
+    left: 50%;
+    margin-left: -550px;
+}
+
+.tshop-um-dp-qplb .next {
+    right: 50%;
+    margin-right: -600px;
+    background-position: -342px 0;
+}
+
+.tshop-um-dp-qplb .nav3 {
+    display: none;
+}
+
+.tshop-um-dp-qplb .zdy_html {
+    width: 1920px;
+    margin-left: -485px;
+    overflow: hidden;
+}
+.tshop-um-dp-qplb .gd_bg {
+    background: url(../../assets/images/big_hd_bg.png) no-repeat;
+}

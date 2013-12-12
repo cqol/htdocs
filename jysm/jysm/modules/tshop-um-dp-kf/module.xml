@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-dp-kf</id>
+    <uuid>138ffb1fe8f749fe9e72cb2c7623c080</uuid>
+    <name>店铺客服</name>
+    <file>tshop-um-dp-kf.php</file>
+    <thumbnail>../../assets/images/default-thumbnail.png</thumbnail>
+    <description>店铺客服</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>990</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+    </themes>
+    <parameters>
+        <group title="客服设置">
+            <section title="" folded="false">
+                <param description="客服风格" formType="range" label="风格选择" name="kf_style" ptype="number" readonly="false">
+                    <option value="0" selected="selected">默认</option>
+                    <option value="1">个性头像</option>
+                </param>
+            </section>
+            <section title="" folded="false">
+                <param description="以|分隔" formType="text" label="①…售前昵称" name="ww_name1" ptype="text" readonly="false">乐乐|博博|乐乐|博博|乐乐|博博|博博</param>
+                <param description="以|分隔,与名称对应，不填则自动调用主号" formType="text" label="旺旺ID" name="ww_id1" ptype="text" readonly="false"/>
+                <param description="以|分隔" formType="text" label="②…售后昵称" name="ww_name2" ptype="text" readonly="false">乐乐|博博|乐乐|博博|乐乐|博博|博博</param>
+                <param description="以|分隔,与名称对应，不填则自动调用主号" formType="text" label="旺旺ID" name="ww_id2" ptype="text" readonly="false"/>
+                <param description="-" formType="text" label="③…工作时间" name="time" ptype="text" readonly="false">周一至周五:09:00--24:00</param>
+            </section>
+        </group>
+    </parameters>
+</module>

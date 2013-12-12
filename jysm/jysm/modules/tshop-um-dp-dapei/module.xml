@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-dp-dapei</id>
+    <uuid>aca2b92f66c04e53b9e393e6323120e0</uuid>
+    <name>店铺搭配</name>
+    <file>tshop-um-dp-dapei.php</file>
+    <thumbnail>../../assets/images/default-thumbnail.png</thumbnail>
+    <description>店铺搭配</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>790,990</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+    </themes>
+</module>
