@@ -1,5 +1,6 @@
 .tshop-um-dp-ys {
     color: black;
+    width: 990px;
 }
 
 .tshop-um-dp-ys .wrap_hd{
@@ -7,6 +8,7 @@
     background: #e0e2e5;
     color: #fff;
     font-size: 14px;
+    margin-bottom: 3px;
 }
 .tshop-um-dp-ys .wrap_hd .hd_more {
     display: block;
@@ -32,13 +34,20 @@
     background: url(../../assets/images/icons.png) no-repeat 0 -145px;
 }
 
- 
+.tshop-um-dp-ys .wrap_bd ul{
+    width: 1010px;
+    overflow: hidden;
+    _zoom: 1;
+
+}
 .tshop-um-dp-ys .wrap_bd .pro_list .pro_item{
     width: 305px;
 }
 .tshop-um-dp-ys .wrap_bd .pro_list {
     float: left;
     width:317px;
+    margin: 12px 0 12px 12px ;
+    border-right: 1px #cccccc solid;
 }
 .tshop-um-dp-ys .img_warp {
     width:305px;
@@ -55,7 +64,7 @@
 .tshop-um-dp-ys .pro_list .pro_price {
     padding-left: 9px;
     margin-top: 3px;
-    line-height: 35px;
+    height: 28px;
 }
 .tshop-um-dp-ys .pro_list .pro_price .del{
     color: #ccc;
@@ -111,3 +120,50 @@
     float: left;
 }
 
+.tshop-um-dp-ys .img_warp .mark_box .ewm{
+    width:80px;
+    height:80px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #cccccc;
+}
+.tshop-um-dp-ys .img_warp .mark_box .mark{
+    position: absolute;
+    width:305px;
+    height:305px;
+    top: 0;
+    left: 0;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=30);
+    background-color: #ccc;
+    opacity:0.3;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=30)";
+}
+.tshop-um-dp-ys .img_warp .mark_box {
+    display: none;
+    width:305px;
+    height:305px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.tshop-um-dp-ys .img_warp .msg .sale s{
+    color: yellow;
+    text-decoration: none;
+}
+.tshop-um-dp-ys .img_warp .msg .sale{
+    display: block;
+    float: left;
+
+    padding-left: 10px;
+}
+.tshop-um-dp-ys .img_warp .msg {
+    line-height: 30px;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 30px;
+    width: 305px;
+    background-color: #77c4ef;
+}

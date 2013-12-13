@@ -16,6 +16,8 @@
       }, {
         "moduleID" : "tshop-um-pic-lb"
       }, {
+        "moduleID" : "tshop-um-dp-dapei"
+      }, {
         "moduleID" : "tshop-um-dp-cate"
       } ]
     }
@@ -27,6 +29,8 @@
         "moduleID" : "tshop-um-dc-dclb"
       }, {
         "moduleID" : "tshop-um-pic-lb"
+      }, {
+        "moduleID" : "tshop-um-sc-dapei"
       } ]
     }
   } ]
