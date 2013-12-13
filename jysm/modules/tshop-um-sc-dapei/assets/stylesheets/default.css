@@ -2,6 +2,8 @@
     color: black;
     font-family: "Î¢ÈíÑÅºÚ";
     width: 790px;
+    position: relative;
+    z-index: 12;
 }
 
 .tshop-um-sc-dapei .wrap_bd {
