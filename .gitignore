@@ -1,0 +1,9 @@
+# window:
+.gitigore
+.idea
+dist/*
+*.zip
+*.rar
+*.via
+*.tmp
+*.err
