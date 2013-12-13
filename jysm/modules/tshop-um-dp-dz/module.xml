@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-dp-dz</id>
+    <uuid>70da6851f35a427883d8ecd24207bf4c</uuid>
+    <name>店铺店招</name>
+    <file>tshop-um-dp-dz.php</file>
+    <thumbnail>../../assets/images/default-thumbnail.png</thumbnail>
+    <description>店铺店招</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>990</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+    </themes>
+    <parameters>
+        <group title="店招设置">
+            <section title="店招图片" folded="false">
+                <param description="图片地址:990*120" formType="text" label="店招图片" name="dz_pic" ptype="text" readonly="false">assets/images/h_pic1.jpg</param>
+            </section>
+            <section title="分享收藏设置" folded="false">
+                <param description="是否显示收藏" formType="range" label="收藏设置" name="sc_show" ptype="number" readonly="false">
+                    <option value="0" selected="selected">显示</option>
+                    <option value="1">不显示</option>
+                </param>
+                <param description="是否显示分享" formType="range" label="分享设置" name="fx_show" ptype="number" readonly="false">
+                    <option value="0" selected="selected">显示</option>
+                    <option value="1">不显示</option>
+                </param>
+            </section>
+        </group>
+        <group title="导航设置">
+            <section title="导航设置" folded="false">
+                <param description="名称以| 隔开,不填则不显示" formType="text" label="导航名称" name="dh_nav" ptype="text" readonly="false">首页|Store|iPhone|iMac|iPad</param>
+                <param description="以| 隔开,与名称对应" formType="textarea" label="导航链接" name="dh_link" ptype="textarea" readonly="false">#|#|#|#|#</param>
+                <param description="以| 隔开,与名称对应,0表示没有,1表示new,2表示hot,3表示sale" formType="text" label="导航图标" name="dh_tb" ptype="text" readonly="false">0|2|1|0|3</param>
+            </section>
+        </group>
+    </parameters>
+</module>

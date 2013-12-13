@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-dp-cate</id>
+    <uuid>e9777e74318b4ca8a4380d0935a1b9bd</uuid>
+    <name>弹出类目</name>
+    <file>tshop-um-dp-cate.php</file>
+    <thumbnail>../../assets/images/default-thumbnail.png</thumbnail>
+    <description>弹出类目</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>990</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+    </themes>
+</module>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-dp-ys</id>
+    <uuid>5a457859fa8341959b3f91c22293c37e</uuid>
+    <name>商品预售</name>
+    <file>tshop-um-dp-ys.php</file>
+    <thumbnail>../../assets/images/default-thumbnail.png</thumbnail>
+    <description>商品预售</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>790,990</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+    </themes>
+</module>

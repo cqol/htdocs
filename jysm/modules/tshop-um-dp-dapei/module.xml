@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-dp-dapei</id>
+    <uuid>aca2b92f66c04e53b9e393e6323120e0</uuid>
+    <name>店铺搭配</name>
+    <file>tshop-um-dp-dapei.php</file>
+    <thumbnail>../../assets/images/default-thumbnail.png</thumbnail>
+    <description>店铺搭配</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>790,990</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+    </themes>
+    <parameters>
+        <group title="商品搭配设置">
+            <section title="主商品宝贝设置" folded="false">
+                <param description="选择1个宝贝" formType="itemForm" label="宝贝选择" name="items1" ptype="item" readonly="false"/>
+                <param description="图片大小:320*320,不填则自动获取" formType="text" label="宝贝大图" name="pic1" ptype="text" readonly="false">../../assets/images/img_01.jpg</param>
+                <param description="-" formType="text" label="宝贝标题" name="bt1" ptype="text" readonly="false">三星数码相机GT-I9508</param>
+            </section>
+            <section title="搭配商品宝贝设置" folded="false">
+                <param description="选择6个宝贝" formType="itemForm" label="宝贝选择" name="items" ptype="item" readonly="false"/>
+                <param description="价格前缀" formType="text" label="默认：促销价" name="qz" ptype="text" readonly="false">劲爆价</param>
+                <param description="" formType="select" label="排序方式" name="px" ptype="text" readonly="false">
+                    <option value=" " selected="selected">按选择排序</option>
+                    <option value="hotsell">热销宝贝升序排序</option>
+                    <option value="_hotsell">热销宝贝降序排序</option>
+                    <option value="ceofp">人气宝贝升序排序</option>
+                    <option value="_ceofp">人气宝贝降序排序</option>
+                    <option value="price">以宝贝价格升序排序</option>
+                    <option value="_price">以宝贝价格降序排序</option>
+                    <option value="newOn">以最新上架宝贝升序排序</option>
+                    <option value="_newOn">以最新上架宝贝降序排序</option>
+                    <option value="HotKeep">以热门收藏升序排序</option>
+                    <option value="_HotKeep">以热门收藏降序排序</option>
+                </param>
+            </section>
+        </group>
+    </parameters>
+</module>
