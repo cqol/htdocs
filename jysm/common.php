@@ -132,9 +132,9 @@ function price_zk($qz,$discountPrice,$price,$color1,$color2){
 }
 function price_cqol($qz,$discountPrice,$price){
     if($discountPrice==$price) {	//’€ø€º€≤ª¥Ê‘⁄
-        echo '<span class="price" style="">'.$qz.'£§<span style="font-weight: bold;font-size: 16px;">'.$price.'</span></span>';
+        echo '<span class="price" style="">'.$qz.'£§<span>'.$price.'</span></span>';
     }else{
-        echo '<span class="price" style="">'.$qz.'£§<span style="font-weight: bold;font-size: 16px;">'.$discountPrice.'</span></span><del class="del" style="">RMB '.$price.'</del>';
+        echo '<span class="price" style="">'.$qz.'£§<span>'.$discountPrice.'</span></span><del class="del" style="">RMB '.$price.'</del>';
 
     }
 }

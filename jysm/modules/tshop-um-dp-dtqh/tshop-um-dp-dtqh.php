@@ -33,7 +33,7 @@
                                         </div>
                                     </div>
                                     <div class="btn">' . gd_sc(0, $item['id']) . gd_share(0, 1, 'cq', $item['id']) . gd_like($item['id']) . '
-                                        <a href="#" target="_blank" class="gd_buy"> </a>
+                                        <a href="' . $item['link'] . '" target="_blank" class="gd_buy"> </a>
                                     </div>
                                 </div>
                                 <div class="info_msg">
