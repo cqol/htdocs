@@ -19,9 +19,23 @@
     </div>
 
     <div class="wrap_bd">
-        <ul>
+        <?
+            $widt = $_MODULE['ps'];
+            $wi;
+            if ($widt == 2) {
+                $wi = 460;
+            } else if ($widt == 3) {
+                $wi = 300;
+            } else if ($widt == 4) {
+                $wi = 210;
+            }
+            else if ($widt == 5) {
+                $wi = 170;
+            }
+        echo '<ul class="ps'. $_MODULE['ps'].'">';
+        ?>
             <?
-                $items=getItems($_MODULE['items'],300,$_MODULE['px'],6);
+                $items=getItems($_MODULE['items'],$wi,$_MODULE['px'],6);
                 $j = 0;
                 foreach($items as $key => $item) {
                          $popconfig = "{'trigger':'.img_pop".$j."','align':{'node':'.img_pop".$j."','offset':[0,0],'points':['lt','rb']}}";
@@ -32,7 +46,7 @@
                                 <a href="'.$item['link'].'" target="_blank" class="alink img_pop'.$j.'" style="'.bg_img($item['pic']).'"></a>
                                 <div class="mark_box J_TWidget"  data-widget-type="Popup" data-widget-config="'.$popconfig.'">
                                     <div class="mark"></div>
-                                    <div class="ewm"">
+                                    <div class="ewm">
                                         '.proewm(80,80,$item['id']).'
                                     </div>
                                     <div class="msg">

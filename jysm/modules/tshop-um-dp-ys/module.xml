@@ -15,6 +15,15 @@
     </themes>
     <parameters>
         <group title="内容设置">
+            <section  title="显示排数" folded="false">
+                <param description="显示排数" formType="range" label="名称显示" name="ps" ptype="number" readonly="false">
+                    <option value="2">显示2排</option>
+                    <option value="3">显示3排</option>
+                    <option value="4">显示4排</option>
+                    <option value="5" selected="selected">显示5排</option>
+                </param>
+            </section>
+
             <section title="头部设置" folded="false">
                 <param description="标题设置" formType="text" label="标题设置" name="head" ptype="text" readonly="false">预售商品</param>
                 <param description="标题内容设置" formType="text" label="标题内容设置" name="text" ptype="text" readonly="false">购买越多，优惠越多</param>

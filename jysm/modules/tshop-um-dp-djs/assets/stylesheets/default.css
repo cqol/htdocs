@@ -45,3 +45,12 @@
     margin-right: 10px;
     background: url(../../assets/images/icons.png) no-repeat 0 -145px;
 }
+
+
+.tshop-um-dp-djs .wrap_bd .item_time {
+    position: absolute;
+    
+}
+.tshop-um-dp-djs .wrap_bd .item_box {
+    float: left;
+}

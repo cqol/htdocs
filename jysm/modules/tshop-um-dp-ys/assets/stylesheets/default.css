@@ -42,7 +42,10 @@
     margin-right: 10px;
     background: url(../../assets/images/icons.png) no-repeat 0 -145px;
 }
-
+.tshop-um-dp-ys .wrap_bd {
+    overflow: hidden;
+    width: 990px;
+}
 .tshop-um-dp-ys .wrap_bd ul{
     width: 1010px;
     overflow: hidden;
@@ -55,7 +58,8 @@
 .tshop-um-dp-ys .wrap_bd .pro_list {
     float: left;
     width:317px;
-    margin: 12px 0 12px 12px ;
+    margin: 12px 0 12px 13px ;
+    padding-bottom: 4px;
     border-right: 1px #cccccc solid;
 }
 .tshop-um-dp-ys .img_warp {
@@ -92,7 +96,7 @@
 }
 .tshop-um-dp-ys .pro_list .alink {
     color: #000;
-    text-align: center;
+    text-align: left;
     font-size: 12px;
     display: block;
     line-height: 14px;
@@ -104,10 +108,12 @@
 }
 .tshop-um-dp-ys .pro_list .btn .gd_sc ,.tshop-um-dp-ys .pro_list .btn .gd_share,
 {
+    margin-top: 2px;
     background: url(../../assets/images/icons.png) no-repeat;
 
 }
 .tshop-um-dp-ys .pro_list .btn .gd_buy {
+    margin-top: 2px;
     background-color: #FA8C2B;
     height: 23px;
     float: left;
@@ -157,8 +163,6 @@
     width:305px;
     height:305px;
     position: absolute;
-    left: 0;
-    top: 0;
 }
 .tshop-um-dp-ys .img_warp .msg .sale s{
     color: yellow;
@@ -179,7 +183,7 @@
     left: 0;
     bottom: 0;
     height: 30px;
-    width: 305px;
+    width: 100%;
     background-color: #77c4ef;
 }
 
@@ -227,4 +231,62 @@
 .tshop-um-dp-ys .img_warp .common-like:hover {
     text-decoration: none;
     border: none;
+}
+.tshop-um-dp-ys .wrap_bd .ps2 .pro_list{
+    width: 470px;
+}
+.tshop-um-dp-ys .wrap_bd .ps2 .pro_list .pro_item {
+    width: 444px;
+}
+.tshop-um-dp-ys .wrap_bd .ps2 .pro_list .pro_item .img_warp,.tshop-um-dp-ys .wrap_bd .ps2 .mark_box
+,.tshop-um-dp-ys .wrap_bd .ps2 .img_warp .alink,
+.tshop-um-dp-ys .wrap_bd .ps2 .mark_box .mark{
+    width: 444px;
+    height: 444px;
+}
+.tshop-um-dp-ys .wrap_bd .ps2 .pro_list {
+    margin: 14px 0 26px 25px;
+}
+
+
+.tshop-um-dp-ys .wrap_bd .ps4 .pro_list {
+    margin: 12px 0 2px 18px;
+}
+
+
+.tshop-um-dp-ys .wrap_bd .ps4 .pro_list{
+    width: 229px;
+}
+.tshop-um-dp-ys .wrap_bd .ps4 .pro_list .pro_item {
+    width: 210px;
+}
+.tshop-um-dp-ys .wrap_bd .ps4 .pro_list .pro_item .img_warp,
+.tshop-um-dp-ys .wrap_bd .ps4 .mark_box
+,.tshop-um-dp-ys .wrap_bd .ps4 .img_warp .alink,
+.tshop-um-dp-ys .wrap_bd .ps4 .mark_box .mark{
+    width: 210px;
+    height: 210px;
+}
+
+
+.tshop-um-dp-ys .wrap_bd .ps5 .pro_list {
+    margin: 12px 0 2px 14px;
+}
+
+
+.tshop-um-dp-ys .wrap_bd .ps5 .pro_list{
+    width: 184px;
+}
+.tshop-um-dp-ys .wrap_bd .ps5 .pro_list .pro_item {
+    width: 170px;
+}
+.tshop-um-dp-ys .wrap_bd .ps5 .pro_list .pro_item .img_warp,
+.tshop-um-dp-ys .wrap_bd .ps5 .mark_box
+,.tshop-um-dp-ys .wrap_bd .ps5 .img_warp .alink,
+.tshop-um-dp-ys .wrap_bd .ps5 .mark_box .mark{
+    width: 170px;
+    height: 170px;
+}
+.tshop-um-dp-ys .wrap_bd .ps5 .pro_list .btn .gd_buy {
+    display: none;
 }
