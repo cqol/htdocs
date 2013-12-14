@@ -28,7 +28,7 @@
             <div class="item_box">
                 <ul>
                     <?
-                        $items=getItems($_MODULE['items'],350,$_MODULE['px'],6);
+                        $items=getItems($_MODULE['items'],160,$_MODULE['px'],6);
                         foreach($items as $key => $item) {
                             echo '<li class="item_pro">
                                     <a href="'.$item['link'].'" target="_blank" class="alink" style="'.bg_img($item['pic']).'">

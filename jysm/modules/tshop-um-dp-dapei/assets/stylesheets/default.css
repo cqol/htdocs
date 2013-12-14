@@ -4,6 +4,7 @@
     width: 990px;
     position: relative;
     z-index: 12;
+    margin-bottom: 10px;
 }
 
 .tshop-um-dp-dapei .wrap_bd {
@@ -39,8 +40,8 @@
 }
 
 .tshop-um-dp-dapei .wrap_bd .main_left .buy {
-    margin-top: 15px;
-    padding-left: 40px;
+    margin-top: 3px;
+    padding-left: 35px;
 }
 
 .tshop-um-dp-dapei .wrap_bd .main_left .buy_btn {

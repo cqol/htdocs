@@ -14,7 +14,7 @@
                     </h3>
 
                     <div class="buy">
-                        <p class="buy_rmb"><span>£¤</span>'.$pro['price'].'</p>
+                        <p class="buy_rmb"><span>ï¿½ï¿½</span>'.$pro['price'].'</p>
                         <a href="'.$pro['link'].'" target="_blank" class="buy_btn"></a>
                     </div>
                     <div class="ewm">
@@ -27,12 +27,12 @@
             <div class="item_box">
                 <ul>
                     <?
-                    $items=getItems($_MODULE['items'],350,$_MODULE['px'],4);
+                    $items=getItems($_MODULE['items'],160,$_MODULE['px'],4);
                     foreach($items as $key => $item) {
                         echo '<li class="item_pro">
                                     <a href="'.$item['link'].'" target="_blank" class="alink" style="'.bg_img($item['pic']).'">
                                     </a>
-                                    <p>'.$_MODULE['qz'].'£º'.$item['price'].'Ôª</p>
+                                    <p>'.$_MODULE['qz'].'ï¿½ï¿½'.$item['price'].'Ôª</p>
                                 </li>';
                     }
                     ?>

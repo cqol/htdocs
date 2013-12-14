@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="GBK"?>
 <module>
-    <id>tshop-um-dp-ys</id>
-    <uuid>5a457859fa8341959b3f91c22293c37e</uuid>
-    <name>商品预售</name>
-    <file>tshop-um-dp-ys.php</file>
+    <id>tshop-um-dp-djs</id>
+    <uuid>b0f5b9d7b436451c8471d23b230ac3a9</uuid>
+    <name>店铺倒计时</name>
+    <file>tshop-um-dp-djs.php</file>
     <thumbnail>../../assets/images/default-thumbnail.png</thumbnail>
-    <description>商品预售</description>
+    <description>店铺倒计时</description>
     <requiredCache>true</requiredCache>
-    <supportedWidth>790,990</supportedWidth>
+    <supportedWidth>990</supportedWidth>
     <themes default="默认">
         <theme name="默认">
             <css>assets/stylesheets/default.css</css>
@@ -26,5 +26,4 @@
             </section>
         </group>
     </parameters>
-
 </module>
