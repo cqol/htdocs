@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="GBK"?>
 <module>
-    <id>tshop-um-dp-djs</id>
-    <uuid>b0f5b9d7b436451c8471d23b230ac3a9</uuid>
-    <name>店铺倒计时</name>
-    <file>tshop-um-dp-djs.php</file>
+    <id>tshop-um-sc-djs</id>
+    <uuid>df7c9ab26f424f849ee440429296b092</uuid>
+    <name>小倒计时</name>
+    <file>tshop-um-sc-djs.php</file>
     <thumbnail>../../assets/images/default-thumbnail.png</thumbnail>
-    <description>店铺倒计时</description>
+    <description>小倒计时</description>
     <requiredCache>true</requiredCache>
-    <supportedWidth>990</supportedWidth>
+    <supportedWidth>790</supportedWidth>
     <themes default="默认">
         <theme name="默认">
             <css>assets/stylesheets/default.css</css>
@@ -25,57 +25,45 @@
         <group title="商品设置">
             <section title="数量设置" folded="false">
                 <param description="990可选择4个和8个；790请选择3个或6个" formType="select" label="宝贝个数" name="gd_num" ptype="number" readonly="false">
-                    <option value="4">4个</option>
-                    <option value="8" selected="selected">8个</option>
+                    <option value="3">3个</option>
+                    <option value="6" selected="selected">6个</option>
                 </param>
             </section>
             <section title="宝贝1设置" folded="false">
                 <param description="选择1个宝贝" formType="itemForm" label="宝贝选择" name="items1" ptype="item" readonly="false"/>
-                <param description="大小:220*220,不填则自动获取" formType="text" label="宝贝图片" name="pic1" ptype="text" readonly="false"/>
+                <param description="大小:220*220,不填则自动获取" formType="text" label="宝贝图片" name="pic1" ptype="text" readonly="false"></param>
                 <param description="简短" formType="text" label="宝贝标题" name="bt1" ptype="text" readonly="false">iphone4S手机壳</param>
                 <param description="倒计时设置：不填不倒计时" formType="text" label="倒计时设置" name="time1" ptype="text" readonly="false">2013-12-21 11:01:01</param>
             </section>
             <section title="宝贝2设置" folded="true">
                 <param description="选择1个宝贝" formType="itemForm" label="宝贝选择" name="items2" ptype="item" readonly="false"/>
-                <param description="大小:220*220,不填则自动获取" formType="text" label="宝贝图片" name="pic2" ptype="text" readonly="false"/>
+                <param description="大小:220*220,不填则自动获取" formType="text" label="宝贝图片" name="pic2" ptype="text" readonly="false"></param>
                 <param description="简短" formType="text" label="宝贝标题" name="bt2" ptype="text" readonly="false">iphone4S手机壳</param>
-                <param description="倒计时设置：不填不倒计时" formType="text" label="倒计时设置" name="time2" ptype="text" readonly="false"/>
+                <param description="倒计时设置：不填不倒计时" formType="text" label="倒计时设置" name="time2" ptype="text" readonly="false"></param>
             </section>
             <section title="宝贝3设置" folded="true">
                 <param description="选择1个宝贝" formType="itemForm" label="宝贝选择" name="items3" ptype="item" readonly="false"/>
-                <param description="大小:220*220,不填则自动获取" formType="text" label="宝贝图片" name="pic3" ptype="text" readonly="false"/>
+                <param description="大小:220*220,不填则自动获取" formType="text" label="宝贝图片" name="pic3" ptype="text" readonly="false"></param>
                 <param description="简短" formType="text" label="宝贝标题" name="bt3" ptype="text" readonly="false">iphone4S手机壳</param>
                 <param description="倒计时设置：不填不倒计时" formType="text" label="倒计时设置" name="time3" ptype="text" readonly="false">2013-12-17 6:01:01</param>
             </section>
             <section title="宝贝4设置" folded="true">
                 <param description="选择1个宝贝" formType="itemForm" label="宝贝选择" name="items4" ptype="item" readonly="false"/>
-                <param description="大小:220*220,不填则自动获取" formType="text" label="宝贝图片" name="pic4" ptype="text" readonly="false"/>
+                <param description="大小:220*220,不填则自动获取" formType="text" label="宝贝图片" name="pic4" ptype="text" readonly="false"></param>
                 <param description="简短" formType="text" label="宝贝标题" name="bt4" ptype="text" readonly="false">iphone4S手机壳</param>
                 <param description="倒计时设置：不填不倒计时" formType="text" label="倒计时设置" name="time4" ptype="text" readonly="false">2013-12-15 4:01:01</param>
             </section>
             <section title="宝贝5设置" folded="true">
                 <param description="选择1个宝贝" formType="itemForm" label="宝贝选择" name="items5" ptype="item" readonly="false"/>
-                <param description="大小:220*220,不填则自动获取" formType="text" label="宝贝图片" name="pic5" ptype="text" readonly="false"/>
+                <param description="大小:220*220,不填则自动获取" formType="text" label="宝贝图片" name="pic5" ptype="text" readonly="false"></param>
                 <param description="简短" formType="text" label="宝贝标题" name="bt5" ptype="text" readonly="false">iphone4S手机壳</param>
                 <param description="倒计时设置：不填不倒计时" formType="text" label="倒计时设置" name="time5" ptype="text" readonly="false">2013-12-15 4:01:01</param>
             </section>
             <section title="宝贝6设置" folded="true">
                 <param description="选择1个宝贝" formType="itemForm" label="宝贝选择" name="items6" ptype="item" readonly="false"/>
-                <param description="大小:220*220,不填则自动获取" formType="text" label="宝贝图片" name="pic6" ptype="text" readonly="false"/>
+                <param description="大小:220*220,不填则自动获取" formType="text" label="宝贝图片" name="pic6" ptype="text" readonly="false"></param>
                 <param description="简短" formType="text" label="宝贝标题" name="bt6" ptype="text" readonly="false">iphone4S手机壳</param>
                 <param description="倒计时设置：不填不倒计时" formType="text" label="倒计时设置" name="time6" ptype="text" readonly="false">2013-12-15 4:01:01</param>
-            </section>
-            <section title="宝贝7设置" folded="true">
-                <param description="选择1个宝贝" formType="itemForm" label="宝贝选择" name="items7" ptype="item" readonly="false"/>
-                <param description="大小:220*220,不填则自动获取" formType="text" label="宝贝图片" name="pic7" ptype="text" readonly="false"/>
-                <param description="简短" formType="text" label="宝贝标题" name="bt7" ptype="text" readonly="false">iphone4S手机壳</param>
-                <param description="倒计时设置：不填不倒计时" formType="text" label="倒计时设置" name="time7" ptype="text" readonly="false">2013-12-15 4:01:01</param>
-            </section>
-            <section title="宝贝8设置" folded="true">
-                <param description="选择1个宝贝" formType="itemForm" label="宝贝选择" name="items8" ptype="item" readonly="false"/>
-                <param description="大小:220*220,不填则自动获取" formType="text" label="宝贝图片" name="pic8" ptype="text" readonly="false"/>
-                <param description="简短" formType="text" label="宝贝标题" name="bt8" ptype="text" readonly="false">iphone4S手机壳</param>
-                <param description="倒计时设置：不填不倒计时" formType="text" label="倒计时设置" name="time8" ptype="text" readonly="false">2013-12-15 4:01:01</param>
             </section>
         </group>
     </parameters>

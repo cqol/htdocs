@@ -14,6 +14,10 @@
       }, {
         "moduleID" : "tshop-um-dp-fl"
       }, {
+        "moduleID" : "tshop-um-dp-dptc"
+      }, {
+        "moduleID" : "tshop-um-dp-djs"
+      }, {
         "moduleID" : "tshop-um-pic-lb"
       }, {
         "moduleID" : "tshop-um-dp-dapei"
@@ -29,6 +33,8 @@
       "sub" : [ ],
       "main" : [ {
         "moduleID" : "tshop-um-dc-dclb"
+      }, {
+        "moduleID" : "tshop-um-sc-djs"
       }, {
         "moduleID" : "tshop-um-pic-lb"
       }, {

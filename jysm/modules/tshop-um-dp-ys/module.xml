@@ -15,25 +15,23 @@
     </themes>
     <parameters>
         <group title="内容设置">
-            <section  title="显示排数" folded="false">
+            <section title="显示排数" folded="false">
                 <param description="显示排数" formType="range" label="名称显示" name="ps" ptype="number" readonly="false">
                     <option value="2">显示2排</option>
-                    <option value="3">显示3排</option>
+                    <option value="3" selected="selected">显示3排</option>
                     <option value="4">显示4排</option>
-                    <option value="5" selected="selected">显示5排</option>
+                    <option value="5">显示5排</option>
                 </param>
             </section>
-
             <section title="头部设置" folded="false">
                 <param description="标题设置" formType="text" label="标题设置" name="head" ptype="text" readonly="false">预售商品</param>
                 <param description="标题内容设置" formType="text" label="标题内容设置" name="text" ptype="text" readonly="false">购买越多，优惠越多</param>
                 <param description="更多设置" formType="text" label="更多设置" name="more" ptype="text" readonly="false">更多商品</param>
                 <param description="更多链接地址" formType="text" label="更多链接地址" name="link" ptype="text" readonly="false">#</param>
             </section>
-            <section title="商品宝贝设置" >
+            <section title="商品宝贝设置" folded="true">
                 <param description="选择宝贝" formType="itemForm" label="宝贝选择" name="items" ptype="item" readonly="false"/>
             </section>
         </group>
     </parameters>
-
 </module>

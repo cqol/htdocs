@@ -1,11 +1,11 @@
 <?php
-    if($_MODULE['mk_region']){
-        $region=$_MODULE['mk_region'];
-    }else{
-        $region=$regionWidth;
-    }
+if($_MODULE['mk_region']){
+    $region=$_MODULE['mk_region'];
+}else{
+    $region=$regionWidth;
+}
 ?>
-<div class="tb-module tshop-um tshop-um-dp-djs" style=" <? width($region) ?>">
+<div class="tb-module tshop-um tshop-um-sc-djs">
     <div class="wrap_hd">
         <h3 class="hd_title">
             <?
@@ -28,25 +28,25 @@
     <div class="wrap_bd mk_<? echo $region ?>" >
         <ul>
             <?
-                $gd_num=$_MODULE['gd_num'];
-                for($i=1;$i<=$gd_num;$i++){
-                    $items=getItems($_MODULE['items'.$i],210,'hotsell',1);
+            $gd_num=$_MODULE['gd_num'];
+            for($i=1;$i<=$gd_num;$i++){
+                $items=getItems($_MODULE['items'.$i],210,'hotsell',1);
 
-                    foreach($items as $key => $item){
-                        if($_MODULE['pic'.$i]){
-                            $pic=$_MODULE['pic'.$i];
-                        }else{
-                            $pic=$item['pic'];
-                        }
-                        $isDjs = $_MODULE['time'.$i];
-                        if ($isDjs) {
-                            $dis = 'display: block;';
-                        } else {
-                            $dis = 'display: none;';
-                        }
-                        $djs = "{'endTime':'". $_MODULE['time'.$i]."','interval':1000,'timeRunCls':'.ks-countdown-run','timeUnitCls':{'d':'.ks-d','h':'.ks-h','m':'.ks-m','s':'.ks-s','i':'.ks-i'},'minDigit':1,'timeEndCls':'.ks-countdown-end'}";
+                foreach($items as $key => $item){
+                    if($_MODULE['pic'.$i]){
+                        $pic=$_MODULE['pic'.$i];
+                    }else{
+                        $pic=$item['pic'];
+                    }
+                    $isDjs = $_MODULE['time'.$i];
+                    if ($isDjs) {
+                        $dis = 'display: block;';
+                    } else {
+                        $dis = 'display: none;';
+                    }
+                    $djs = "{'endTime':'". $_MODULE['time'.$i]."','interval':1000,'timeRunCls':'.ks-countdown-run','timeUnitCls':{'d':'.ks-d','h':'.ks-h','m':'.ks-m','s':'.ks-s','i':'.ks-i'},'minDigit':1,'timeEndCls':'.ks-countdown-end'}";
 
-                        echo '<li class="item_box">
+                    echo '<li class="item_box">
                                 <div class="img_warp">
                                     <a href="'.$item['link'].'" class="alink" style="'.bg_img($pic).'">
                                     </a>
@@ -85,8 +85,8 @@
                                     </div>
                                 </div>
                             </li>';
-                    }
                 }
+            }
             ?>
         </ul>
     </div>
