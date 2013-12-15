@@ -12,44 +12,50 @@
         <theme name="默认">
             <css>assets/stylesheets/default.css</css>
         </theme>
+        <theme name="简约绿">
+            <css>assets/stylesheets/green.css</css>
+        </theme>
+        <theme name="简约红">
+            <css>assets/stylesheets/red.css</css>
+        </theme>
     </themes>
     <parameters>
         <group title="商品设置">
-            <section title="宝贝1设置" folded="false">
-                <param description="选择1个宝贝" formType="itemForm" label="宝贝选择" name="items1" ptype="item" readonly="false"/>
-                <param description="图片大小:310*310,不填则自动获取" formType="text" label="宝贝大图" name="pic1" ptype="text" readonly="false">../../assets/images/bc_pro_01.jpg</param>
-                <param description="图片大小:163*40,不填则自动获取" formType="text" label="宝贝小图" name="spic1" ptype="text" readonly="false">../../assets/images/s_pro_01.jpg</param>
-                <param description="-" formType="text" label="宝贝标题" name="bt1" ptype="text" readonly="false">三星数码相机GT-I9508</param>
+            <section folded="false" title="宝贝1设置">
+                <param readonly="false" ptype="item" name="items1" label="宝贝选择" formType="itemForm" description="选择1个宝贝"/>
+                <param readonly="false" ptype="text" name="pic1" label="宝贝大图" formType="text" description="图片大小:310*310,不填则自动获取">../../assets/images/bc_pro_01.jpg</param>
+                <param readonly="false" ptype="text" name="spic1" label="宝贝小图" formType="text" description="图片大小:163*40,不填则自动获取">../../assets/images/s_pro_01.jpg</param>
+                <param readonly="false" ptype="text" name="bt1" label="宝贝标题" formType="text" description="-">三星数码相机GT-I9508</param>
             </section>
-            <section title="宝贝2设置" folded="false">
-                <param description="选择1个宝贝" formType="itemForm" label="宝贝选择" name="items2" ptype="item" readonly="false"/>
-                <param description="图片大小:310*310,不填则自动获取" formType="text" label="宝贝大图" name="pic2" ptype="text" readonly="false">../../assets/images/bc_pro_01.jpg</param>
-                <param description="图片大小:163*40,不填则自动获取" formType="text" label="宝贝小图" name="spic2" ptype="text" readonly="false">../../assets/images/s_pro_02.jpg</param>
-                <param description="-" formType="text" label="宝贝标题" name="bt2" ptype="text" readonly="false">三星数码相机GT-I9508</param>
+            <section folded="false" title="宝贝2设置">
+                <param readonly="false" ptype="item" name="items2" label="宝贝选择" formType="itemForm" description="选择1个宝贝"/>
+                <param readonly="false" ptype="text" name="pic2" label="宝贝大图" formType="text" description="图片大小:310*310,不填则自动获取">../../assets/images/bc_pro_01.jpg</param>
+                <param readonly="false" ptype="text" name="spic2" label="宝贝小图" formType="text" description="图片大小:163*40,不填则自动获取">../../assets/images/s_pro_02.jpg</param>
+                <param readonly="false" ptype="text" name="bt2" label="宝贝标题" formType="text" description="-">三星数码相机GT-I9508</param>
             </section>
-            <section title="宝贝3设置" folded="true">
-                <param description="选择1个宝贝" formType="itemForm" label="宝贝选择" name="items3" ptype="item" readonly="false"/>
-                <param description="图片大小:310*310,不填则自动获取" formType="text" label="宝贝大图" name="pic3" ptype="text" readonly="false">../../assets/images/bc_pro_01.jpg</param>
-                <param description="图片大小:163*40,不填则自动获取" formType="text" label="宝贝小图" name="spic3" ptype="text" readonly="false">../../assets/images/s_pro_03.jpg</param>
-                <param description="-" formType="text" label="宝贝标题" name="bt3" ptype="text" readonly="false">三星数码相机GT-I9508</param>
+            <section folded="true" title="宝贝3设置">
+                <param readonly="false" ptype="item" name="items3" label="宝贝选择" formType="itemForm" description="选择1个宝贝"/>
+                <param readonly="false" ptype="text" name="pic3" label="宝贝大图" formType="text" description="图片大小:310*310,不填则自动获取">../../assets/images/bc_pro_01.jpg</param>
+                <param readonly="false" ptype="text" name="spic3" label="宝贝小图" formType="text" description="图片大小:163*40,不填则自动获取">../../assets/images/s_pro_03.jpg</param>
+                <param readonly="false" ptype="text" name="bt3" label="宝贝标题" formType="text" description="-">三星数码相机GT-I9508</param>
             </section>
-            <section title="宝贝4设置" folded="true">
-                <param description="选择1个宝贝" formType="itemForm" label="宝贝选择" name="items4" ptype="item" readonly="false"/>
-                <param description="图片大小:310*310,不填则自动获取" formType="text" label="宝贝大图" name="pic4" ptype="text" readonly="false">../../assets/images/bc_pro_01.jpg</param>
-                <param description="图片大小:163*40,不填则自动获取" formType="text" label="宝贝小图" name="spic4" ptype="text" readonly="false">../../assets/images/s_pro_01.jpg</param>
-                <param description="-" formType="text" label="宝贝标题" name="bt4" ptype="text" readonly="false">三星数码相机GT-I9508</param>
+            <section folded="true" title="宝贝4设置">
+                <param readonly="false" ptype="item" name="items4" label="宝贝选择" formType="itemForm" description="选择1个宝贝"/>
+                <param readonly="false" ptype="text" name="pic4" label="宝贝大图" formType="text" description="图片大小:310*310,不填则自动获取">../../assets/images/bc_pro_01.jpg</param>
+                <param readonly="false" ptype="text" name="spic4" label="宝贝小图" formType="text" description="图片大小:163*40,不填则自动获取">../../assets/images/s_pro_01.jpg</param>
+                <param readonly="false" ptype="text" name="bt4" label="宝贝标题" formType="text" description="-">三星数码相机GT-I9508</param>
             </section>
         </group>
         <group title="动画设置">
             <section folded="false">
-                <param description=" " formType="select" label="播放方式" name="effect" ptype="text" readonly="false">
-                    <option value="scrollx" selected="selected">水平滚动</option>
+                <param readonly="false" ptype="text" name="effect" label="播放方式" formType="select" description=" ">
+                    <option selected="selected" value="scrollx">水平滚动</option>
                     <option value="scrolly">垂直滚动</option>
                     <option value="fade">淡入淡出</option>
                     <option value="none">禁用效果</option>
                 </param>
-                <param description=" " formType="select" label="轮播效果" name="easing" ptype="text" readonly="false">
-                    <option value="easeOutStrong" selected="selected">由快到慢 - 强</option>
+                <param readonly="false" ptype="text" name="easing" label="轮播效果" formType="select" description=" ">
+                    <option selected="selected" value="easeOutStrong">由快到慢 - 强</option>
                     <option value="easeInStrong">由慢到快 - 强</option>
                     <option value="easeBothStrong">动感弹性</option>
                     <option value="elasticIn">变幻抖动</option>
@@ -63,12 +69,12 @@
                         value="easeBoth">原始简单滚动</option>
                     <option value="easeNone">原始简单均速</option>
                 </param>
-                <param description=" " formType="range" label="切换方式" name="autoplay" ptype="text" readonly="false">
+                <param readonly="false" ptype="text" name="autoplay" label="切换方式" formType="range" description=" ">
                     <option value="true">自动播放</option>
-                    <option value="false" selected="selected">手动控制</option>
+                    <option selected="selected" value="false">手动控制</option>
                 </param>
-                <param description="图片切换时间,默认1s" formType="text" label="切换速度" name="duration" ptype="text" readonly="false">1</param>
-                <param description="图片停留时间,默认3s" formType="text" label="停留时间" name="interval" ptype="text" readonly="false">3</param>
+                <param readonly="false" ptype="text" name="duration" label="切换速度" formType="text" description="图片切换时间,默认1s">1</param>
+                <param readonly="false" ptype="text" name="interval" label="停留时间" formType="text" description="图片停留时间,默认3s">3</param>
             </section>
         </group>
     </parameters>

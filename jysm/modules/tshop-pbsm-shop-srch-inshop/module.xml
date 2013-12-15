@@ -8,5 +8,11 @@
         <theme name="Ä¬ÈÏ">
             <css>assets/stylesheets/default.css</css>
         </theme>
+        <theme name="¼òÔ¼ÂÌ">
+            <css>assets/stylesheets/green.css</css>
+        </theme>
+        <theme name="¼òÔ¼ºì">
+            <css>assets/stylesheets/red.css</css>
+        </theme>
     </themes>
 </module>

@@ -2,7 +2,7 @@
 <site>
     <id>21a16df16c3240e7b39c74e65fe5fddb</id>
     <name>简约数码</name>
-    <author name="[提示：请添加模板作者名称]" url="http://www.yourwebsite.com" wangwang="[提示：请添加模板作者的旺旺]"></author>
+    <author wangwang="[提示：请添加模板作者的旺旺]" url="http://www.yourwebsite.com" name="[提示：请添加模板作者名称]"></author>
     <thumbnail>assets/images/default-thumbnail.png</thumbnail>
     <language>PHP</language>
     <version>1.0.1</version>
@@ -19,6 +19,14 @@
     <themes default="默认">
         <theme name="默认">
             <css>assets/stylesheets/default/extra.css</css>
+            <thumbnail>assets/images/default-thumbnail.png</thumbnail>
+        </theme>
+        <theme name="简约红">
+            <css>assets/stylesheets/red/extra.css</css>
+            <thumbnail>assets/images/default-thumbnail.png</thumbnail>
+        </theme>
+        <theme name="简约绿">
+            <css>assets/stylesheets/green/extra.css</css>
             <thumbnail>assets/images/default-thumbnail.png</thumbnail>
         </theme>
     </themes>

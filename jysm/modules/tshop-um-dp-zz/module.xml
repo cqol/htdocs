@@ -12,24 +12,30 @@
         <theme name="Ä¬ÈÏ">
             <css>assets/stylesheets/default.css</css>
         </theme>
+        <theme name="¼òÔ¼ÂÌ">
+            <css>assets/stylesheets/green.css</css>
+        </theme>
+        <theme name="¼òÔ¼ºì">
+            <css>assets/stylesheets/red.css</css>
+        </theme>
     </themes>
     <parameters>
         <group title="ÄÚÈİÉèÖÃ">
-            <section title="Í¼Æ¬1ÉèÖÃ" folded="false">
-                <param description="Í¼Æ¬¿í:412£¬¸ß£º410" formType="text" label="Í¼Æ¬µØÖ·" name="pic_1" ptype="text" readonly="false">assets/images/pic_01.jpg</param>
-                <param description="ÓëÍ¼Æ¬¶ÔÓ¦" formType="text" label="Á´½ÓµØÖ·" name="link1" ptype="text" readonly="false">#</param>
+            <section folded="false" title="Í¼Æ¬1ÉèÖÃ">
+                <param readonly="false" ptype="text" name="pic_1" label="Í¼Æ¬µØÖ·" formType="text" description="Í¼Æ¬¿í:412£¬¸ß£º410">assets/images/pic_01.jpg</param>
+                <param readonly="false" ptype="text" name="link1" label="Á´½ÓµØÖ·" formType="text" description="ÓëÍ¼Æ¬¶ÔÓ¦">#</param>
             </section>
-            <section title="Í¼Æ¬2ÉèÖÃ" folded="true">
-                <param description="Í¼Æ¬¿í:578£¬¸ß£º182" formType="text" label="Í¼Æ¬µØÖ·" name="pic_2" ptype="text" readonly="false">assets/images/pic_02.jpg</param>
-                <param description="ÓëÍ¼Æ¬¶ÔÓ¦" formType="text" label="Á´½ÓµØÖ·" name="link2" ptype="text" readonly="false">#</param>
+            <section folded="true" title="Í¼Æ¬2ÉèÖÃ">
+                <param readonly="false" ptype="text" name="pic_2" label="Í¼Æ¬µØÖ·" formType="text" description="Í¼Æ¬¿í:578£¬¸ß£º182">assets/images/pic_02.jpg</param>
+                <param readonly="false" ptype="text" name="link2" label="Á´½ÓµØÖ·" formType="text" description="ÓëÍ¼Æ¬¶ÔÓ¦">#</param>
             </section>
-            <section title="Í¼Æ¬3ÉèÖÃ" folded="true">
-                <param description="Í¼Æ¬¿í:289£¬¸ß£º228" formType="text" label="Í¼Æ¬µØÖ·" name="pic_3" ptype="text" readonly="false">assets/images/pic_03.jpg</param>
-                <param description="ÓëÍ¼Æ¬¶ÔÓ¦" formType="text" label="Á´½ÓµØÖ·" name="link3" ptype="text" readonly="false">#</param>
+            <section folded="true" title="Í¼Æ¬3ÉèÖÃ">
+                <param readonly="false" ptype="text" name="pic_3" label="Í¼Æ¬µØÖ·" formType="text" description="Í¼Æ¬¿í:289£¬¸ß£º228">assets/images/pic_03.jpg</param>
+                <param readonly="false" ptype="text" name="link3" label="Á´½ÓµØÖ·" formType="text" description="ÓëÍ¼Æ¬¶ÔÓ¦">#</param>
             </section>
-            <section title="Í¼Æ¬4ÉèÖÃ" folded="true">
-                <param description="Í¼Æ¬¿í:289£¬¸ß£º228" formType="text" label="Í¼Æ¬µØÖ·" name="pic_4" ptype="text" readonly="false">assets/images/pic_04.jpg</param>
-                <param description="ÓëÍ¼Æ¬¶ÔÓ¦" formType="text" label="Á´½ÓµØÖ·" name="link4" ptype="text" readonly="false">#</param>
+            <section folded="true" title="Í¼Æ¬4ÉèÖÃ">
+                <param readonly="false" ptype="text" name="pic_4" label="Í¼Æ¬µØÖ·" formType="text" description="Í¼Æ¬¿í:289£¬¸ß£º228">assets/images/pic_04.jpg</param>
+                <param readonly="false" ptype="text" name="link4" label="Á´½ÓµØÖ·" formType="text" description="ÓëÍ¼Æ¬¶ÔÓ¦">#</param>
             </section>
         </group>
     </parameters>

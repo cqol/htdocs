@@ -12,19 +12,25 @@
         <theme name="默认">
             <css>assets/stylesheets/default.css</css>
         </theme>
+        <theme name="简约绿">
+            <css>assets/stylesheets/green.css</css>
+        </theme>
+        <theme name="简约红">
+            <css>assets/stylesheets/red.css</css>
+        </theme>
     </themes>
     <parameters>
         <group title="商品搭配设置">
-            <section title="主商品宝贝设置" folded="false">
-                <param description="选择1个宝贝" formType="itemForm" label="宝贝选择" name="items1" ptype="item" readonly="false"/>
-                <param description="图片大小:320*320,不填则自动获取" formType="text" label="宝贝大图" name="pic1" ptype="text" readonly="false">../../assets/images/img_01.jpg</param>
-                <param description="-" formType="text" label="宝贝标题" name="bt1" ptype="text" readonly="false">三星数码相机GT-I9508</param>
+            <section folded="false" title="主商品宝贝设置">
+                <param readonly="false" ptype="item" name="items1" label="宝贝选择" formType="itemForm" description="选择1个宝贝"/>
+                <param readonly="false" ptype="text" name="pic1" label="宝贝大图" formType="text" description="图片大小:320*320,不填则自动获取">../../assets/images/img_01.jpg</param>
+                <param readonly="false" ptype="text" name="bt1" label="宝贝标题" formType="text" description="-">三星数码相机GT-I9508</param>
             </section>
-            <section title="搭配商品宝贝设置" folded="false">
-                <param description="选择6个宝贝" formType="itemForm" label="宝贝选择" name="items" ptype="item" readonly="false"/>
-                <param description="价格前缀" formType="text" label="默认：促销价" name="qz" ptype="text" readonly="false">劲爆价</param>
-                <param description="" formType="select" label="排序方式" name="px" ptype="text" readonly="false">
-                    <option value=" " selected="selected">按选择排序</option>
+            <section folded="false" title="搭配商品宝贝设置">
+                <param readonly="false" ptype="item" name="items" label="宝贝选择" formType="itemForm" description="选择6个宝贝"/>
+                <param readonly="false" ptype="text" name="qz" label="默认：促销价" formType="text" description="价格前缀">劲爆价</param>
+                <param readonly="false" ptype="text" name="px" label="排序方式" formType="select" description="">
+                    <option selected="selected" value=" ">按选择排序</option>
                     <option value="hotsell">热销宝贝升序排序</option>
                     <option value="_hotsell">热销宝贝降序排序</option>
                     <option value="ceofp">人气宝贝升序排序</option>
@@ -39,5 +45,4 @@
             </section>
         </group>
     </parameters>
-
 </module>

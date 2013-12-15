@@ -12,23 +12,29 @@
         <theme name="默认">
             <css>assets/stylesheets/default.css</css>
         </theme>
+        <theme name="简约绿">
+            <css>assets/stylesheets/green.css</css>
+        </theme>
+        <theme name="简约红">
+            <css>assets/stylesheets/red.css</css>
+        </theme>
     </themes>
     <parameters>
         <group title="内容设置">
-            <section title="收藏设置" folded="false">
-                <param description="图片大小:190*128,不填则显示默认" formType="text" label="收藏图片" name="sc" ptype="text" readonly="false"/>
+            <section folded="false" title="收藏设置">
+                <param readonly="false" ptype="text" name="sc" label="收藏图片" formType="text" description="图片大小:190*128,不填则显示默认"/>
             </section>
-            <section title="旺旺设置" folded="false">
-                <param description="不填则不显示售前" formType="text" label="①--售前客服:标题" name="ww_bt1" ptype="text" readonly="false">售前客服</param>
-                <param description="以|分隔" formType="text" label="客服昵称" name="ww_name1" ptype="text" readonly="false">小猪|小牛|小狗|小花|小兰|小三</param>
-                <param description="以|分隔,与名称对应，不填则自动调用主号" formType="text" label="旺旺ID" name="ww_id1" ptype="text" readonly="false"/>
-                <param description="不填则不显示售后" formType="text" label="②--售后客服:标题" name="ww_bt2" ptype="text" readonly="false">售后客服</param>
-                <param description="同上" formType="text" label="客服昵称" name="ww_name2" ptype="text" readonly="false">小猪|小牛|小狗|小花</param>
-                <param description="同上" formType="text" label="旺旺ID" name="ww_id2" ptype="text" readonly="false"/>
-                <param description="不填则不显示投诉咨询" formType="text" label="③--投诉咨询:标题" name="ww_bt3" ptype="text" readonly="false">投诉咨询</param>
-                <param description="同上" formType="text" label="客服昵称" name="ww_name3" ptype="text" readonly="false">小猪|小牛</param>
-                <param description="同上" formType="text" label="旺旺ID" name="ww_id3" ptype="text" readonly="false"/>
-                <param description="不填则不显示" formType="text" label="④--在线时间" name="time" ptype="text" readonly="false">09:00--24:00</param>
+            <section folded="false" title="旺旺设置">
+                <param readonly="false" ptype="text" name="ww_bt1" label="①--售前客服:标题" formType="text" description="不填则不显示售前">售前客服</param>
+                <param readonly="false" ptype="text" name="ww_name1" label="客服昵称" formType="text" description="以|分隔">小猪|小牛|小狗|小花|小兰|小三</param>
+                <param readonly="false" ptype="text" name="ww_id1" label="旺旺ID" formType="text" description="以|分隔,与名称对应，不填则自动调用主号"/>
+                <param readonly="false" ptype="text" name="ww_bt2" label="②--售后客服:标题" formType="text" description="不填则不显示售后">售后客服</param>
+                <param readonly="false" ptype="text" name="ww_name2" label="客服昵称" formType="text" description="同上">小猪|小牛|小狗|小花</param>
+                <param readonly="false" ptype="text" name="ww_id2" label="旺旺ID" formType="text" description="同上"/>
+                <param readonly="false" ptype="text" name="ww_bt3" label="③--投诉咨询:标题" formType="text" description="不填则不显示投诉咨询">投诉咨询</param>
+                <param readonly="false" ptype="text" name="ww_name3" label="客服昵称" formType="text" description="同上">小猪|小牛</param>
+                <param readonly="false" ptype="text" name="ww_id3" label="旺旺ID" formType="text" description="同上"/>
+                <param readonly="false" ptype="text" name="time" label="④--在线时间" formType="text" description="不填则不显示">09:00--24:00</param>
             </section>
         </group>
     </parameters>

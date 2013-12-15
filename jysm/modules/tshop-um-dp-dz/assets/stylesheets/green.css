@@ -1,0 +1,118 @@
+/**
+ * 模块：tshop-um-dp-dz 
+ * 皮肤（主题）: 默认
+ * 规则:
+ * 		1. CSS选择器必须包含 ".tshop-um-dp-dz"，禁止使用模块页面元素的ID选择器
+ *		2. CSS样式声明的position属性值不能使用:fixed
+ *		3. CSS样式文件中z-index属性值必须在1-99之间
+ *		4. CSS URL地址必须是淘宝URL白名单中或者本地（相对或绝对）URL 
+ */
+.tshop-um-dp-dz {
+    position: relative;
+    z-index: 12;
+}
+.tshop-um-dp-dz a:hover {
+    text-decoration: none;
+}
+
+.tshop-um-dp-dz a {
+    color: #fff;
+}
+.tshop-um-dp-dz .wrap_hd{
+    background: url(assets/images/h_pic2.jpg) no-repeat 0 0;
+    height: 120px;
+    overflow: hidden;
+    width: 990px;
+    position: relative;
+    color: #fff;
+}
+.tshop-um-dp-dz .hd_nav {
+    position: relative;
+    height: 30px;
+    width: 990px;
+    overflow: hidden;
+}
+.tshop-um-dp-dz .hd_nav .frist a{
+    background: url(../../assets/images/icons.png) no-repeat;
+    background-position: -204px -113px;
+    text-indent: -99999px;
+}
+.tshop-um-dp-dz .hd_nav .frist a:hover{
+    background: url(../../assets/images/icons.png) no-repeat;
+    background-position: -204px -83px;
+}
+.tshop-um-dp-dz .hd_nav li{
+    text-align: center;
+    float: left;
+    width: 102px;
+    background: url(../../assets/images/icons.png) no-repeat 0 -53px;
+}
+.tshop-um-dp-dz .hd_nav .item1 a{
+    background: url(../../assets/images/new.png) no-repeat 70px 4px;
+}
+.tshop-um-dp-dz .hd_nav .item2 a{
+    background: url(../../assets/images/hot.png) no-repeat 70px 4px;
+}
+.tshop-um-dp-dz .hd_nav .item3 a{
+    background: url(../../assets/images/sale.png) no-repeat 70px 4px;
+}
+.tshop-um-dp-dz .hd_nav li a{
+    color: #fff;
+    display: block;
+    height: 30px;
+    line-height: 30px;
+
+}
+.tshop-um-dp-dz .hd_nav li:hover{
+    text-decoration: none;
+    background: url(../../assets/images/icons.png) no-repeat -204px -23px;
+}
+
+.tshop-um-dp-dz .hd_nav .hd_search{
+    position: absolute;
+    height: 30px;
+    right: 0;
+    top: 0;
+    width: 260px;
+    overflow: hidden;
+}
+.tshop-um-dp-dz .hd_nav .hd_search .words a{
+    color: #d3d3d3;
+    margin-right: 5px;
+}
+
+.tshop-um-dp-dz .hd_nav .hd_search .words{
+    float: left;
+    line-height: 30px;
+    text-align: center;
+    width: 90px;
+}
+
+.tshop-um-dp-dz .hd_nav .hd_search form{
+    width: 166px;
+    height: 20px;
+    float: left;
+    margin-top: 6px;
+    position: relative;
+}
+.tshop-um-dp-dz .hd_nav .hd_search form .keyword{
+    height: 20px;
+    background: url(../../assets/images/icons.png) no-repeat;
+    width: 130px;
+    border: none;
+    outline: none;
+    padding-left: 7px;
+    font: 12px;
+    line-height: 12px;
+}
+.tshop-um-dp-dz .hd_nav .hd_search form .button {
+    width: 36px;
+    height: 20px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: url(../../assets/images/icons.png) no-repeat -130px 0;
+}

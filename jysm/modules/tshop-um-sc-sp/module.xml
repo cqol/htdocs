@@ -12,17 +12,23 @@
         <theme name="默认">
             <css>assets/stylesheets/default.css</css>
         </theme>
+        <theme name="简约绿">
+            <css>assets/stylesheets/green.css</css>
+        </theme>
+        <theme name="简约红">
+            <css>assets/stylesheets/red.css</css>
+        </theme>
     </themes>
     <parameters>
         <group title="内容设置">
-            <section title="头部设置" folded="false">
-                <param description="视频地址：仅支持淘宝视频地址" formType="text" label="标题设置" name="sp" ptype="text" readonly="false">http://cloud.video.taobao.com/play/u/505753958/p/2/e/1/t/3/10682527.swf#tb_videoid=2432614</param>
+            <section folded="false" title="头部设置">
+                <param readonly="false" ptype="text" name="sp" label="标题设置" formType="text" description="视频地址：仅支持淘宝视频地址">http://cloud.video.taobao.com/play/u/505753958/p/2/e/1/t/3/10682527.swf#tb_videoid=2432614</param>
             </section>
-            <section title="专区1设置" folded="false">
-                <param description="专区标题:英文" formType="text" label="英文" name="yw1" ptype="text" readonly="false">digital</param>
-                <param description="专区标题:中文" formType="text" label="英文" name="zw1" ptype="text" readonly="false">数码专区</param>
-                <param description="图片地址：300*225" formType="text" label="图片地址" name="img1" ptype="text" readonly="false">assets/images/img_01.jpg</param>
-                <param description="链接地址" formType="text" label="链接地址" name="link1" ptype="text" readonly="false">#</param>
+            <section folded="false" title="专区1设置">
+                <param readonly="false" ptype="text" name="yw1" label="英文" formType="text" description="专区标题:英文">digital</param>
+                <param readonly="false" ptype="text" name="zw1" label="英文" formType="text" description="专区标题:中文">数码专区</param>
+                <param readonly="false" ptype="text" name="img1" label="图片地址" formType="text" description="图片地址：300*225">assets/images/img_01.jpg</param>
+                <param readonly="false" ptype="text" name="link1" label="链接地址" formType="text" description="链接地址">#</param>
             </section>
         </group>
     </parameters>

@@ -1,0 +1,18 @@
+#content {
+	background-color:#e0e2e5 ;
+}
+
+#hd {
+	background-image:url(assets/images/header_red_bg.png) ;
+	background-repeat:repeat-x ;
+	background-position:top left ;
+	margin-bottom:0px;
+}
+
+.skin-box .skin-box-hd {
+	border-style:solid;
+}
+
+.skin-box .skin-box-bd {
+	border-style:solid;
+}
