@@ -1,10 +1,14 @@
 {
-  "title" : "自定义页面",
+  "title" : null,
   "layouts" : [ {
     "type" : "grid-s5m0",
     "modules" : {
-      "main" : [ ],
-      "sub" : [ ]
+      "sub" : [ {
+        "moduleID" : "tshop-um-sc-kf"
+      } ],
+      "main" : [ {
+        "moduleID" : "tshop-um-sc-sp"
+      } ]
     }
   } ]
 }

@@ -1,0 +1,85 @@
+.tshop-pbsm-shop-item-cates {
+    color:black;
+    position: relative;
+    margin-bottom: 10px;
+    z-index: 12;
+}
+
+.tshop-pbsm-shop-item-cates .skin-box-hd {
+    padding: 0;
+    margin: 0;
+    width: 190px;
+    background: #e0e2e5;
+    height: 40px;
+    border: none;
+    overflow: hidden;
+}
+.tshop-pbsm-shop-item-cates .skin-box-hd h3{
+    height: 40px;
+    display: block;
+    padding-left: 16px;
+    line-height: 40px;
+    width: 157px;
+    background: url(../../assets/images/icons.png) no-repeat 0 -145px;
+}
+.tshop-pbsm-shop-item-cates .skin-box-hd h3 span{
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+}
+.tshop-pbsm-shop-item-cates .cats-tree .fst-cat-icon {
+    width: 9px;
+    height: 9px;
+    margin-top: 16px;
+    margin-right: 3px;
+    /*background: url(../../assets/images/icon.png) no-repeat -190px -152px;*/
+    background: url(../../assets/images/icons.png) no-repeat -306px -128px;
+
+}
+.tshop-pbsm-shop-item-cates .cats-tree .acrd-trigger {
+    background: url(../../assets/images/icons.png) no-repeat -306px -119px;
+
+}
+.tshop-pbsm-shop-item-cates .cats-tree .fst-cat-hd {
+    margin-left: 5px;
+    margin-right: 4px;
+    padding-left: 5px;
+    background-color: #e6e6e6;
+    line-height: 36px;
+    margin-top: 4px;
+}
+.tshop-pbsm-shop-item-cates .skin-box-bd a{
+    color: #2A2A2A;
+}
+
+.tshop-pbsm-shop-item-cates .cats-tree .float .fst-cat-name{
+    color: #2a2a2a;
+}
+.tshop-pbsm-shop-item-cates .cats-tree .cat-name:hover {
+    color: #2a2a2a;
+}
+.tshop-pbsm-shop-item-cates .cats-tree .cat-hd:hover, .tshop-pbsm-shop-item-cates .cats-tree .cat-hd-hover {
+    background-color: #f6f6f6;
+}
+.tshop-pbsm-shop-item-cates .cats-tree .active-trigger {
+    background-position: -306px -128px;
+}
+
+.tshop-pbsm-shop-item-cates .cats-tree .snd-cat-hd {
+    padding-left: 24px;
+}
+.tshop-pbsm-shop-item-cates .cats-tree .float .fst-cat-hd .fst-cat-icon{
+    display: none;
+}
+.tshop-pbsm-shop-item-cates .cats-tree .float .fst-cat-hd {
+    margin: 0;
+    height: 20px;
+    padding: 0;
+    line-height: 20px;
+    padding-left: 8px;
+    background: none;
+    border: none;
+}
+.tshop-pbsm-shop-item-cates .cats-tree .float .fst-cat-bd{
+    padding-left: 8px;
+}

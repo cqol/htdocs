@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-pd-ft</id>
+    <uuid>f23bef8ffa1144caa0a1440383e0f22a</uuid>
+    <name>店铺底部</name>
+    <file>tshop-um-pd-ft.php</file>
+    <thumbnail>../../assets/images/default-thumbnail.png</thumbnail>
+    <description>店铺底部</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>990</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+    </themes>
+    <parameters>
+        <group title="内容设置">
+            <section title="活动链接" folded="false">
+                <param description="多个以|分割,不填则不显示" formType="text" label="链接名称" name="name" ptype="text" readonly="false">店铺首页|信用评价|所有宝贝|我的订单|听掌柜说|收藏我们|返回顶部</param>
+                <param description="以|分割,与名称对应" formType="textarea" label="链接地址" name="link" ptype="textarea" readonly="false">#|#|#|#|#|#|#</param>
+                <param description="多个以|分割,不填则不显示" formType="text" label="链接名称2" name="name1" ptype="text" readonly="false">店铺首页|信用评价|最新活动|新品会场|爆款会场|套餐会场|返回顶部</param>
+                <param description="以|分割,与名称对应" formType="textarea" label="链接地址2" name="link1" ptype="textarea" readonly="false">#|#|#|#|#|#|#</param>
+                <param description="多个以|分割,不填则不显示" formType="text" label="链接名称3" name="name2" ptype="text" readonly="false">店铺首页|信用评价|最新活动|新品会场|爆款会场|套餐会场|返回顶部</param>
+                <param description="以|分割,与名称对应" formType="textarea" label="链接地址3" name="link2" ptype="textarea" readonly="false">#|#|#|#|#|#|#</param>
+            </section>
+            <section title="客服设置设置" folded="false">
+                <param description="以|分隔，不填则自动调用主号" formType="text" label="售前旺旺ID" name="ww_id1" ptype="text" readonly="false"></param>
+                <param description="同上" formType="text" label="售后旺旺ID" name="ww_id2" ptype="text" readonly="false"></param>
+                <param description="简短" formType="text" label="客服提示" name="ts" ptype="text" readonly="false">客服在线时间:09:00--24:00</param>
+            </section>
+            <section title="图片活动入口" folded="false">
+                <param description="图片地址" formType="text" label="图片地址：103*103" name="lebo" ptype="text" readonly="false">assets/images/lebo.png</param>
+                <param description="链接地址" formType="text" label="链接地址" name="lebolink" ptype="text" readonly="false">#</param>
+            </section>
+        </group>
+    </parameters>
+</module>

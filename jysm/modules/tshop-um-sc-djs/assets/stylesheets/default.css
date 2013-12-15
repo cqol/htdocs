@@ -106,9 +106,8 @@
     border-top: 1px #eaeaea solid;
     padding: 0 0 0 12px;
 }
-.tshop-um-sc-djs .item_box .btn .gd_sc ,
-.tshop-um-sc-djs .item_box .btn .gd_share,
-{
+.tshop-um-sc-djs .item_box .btn .gd_sc,
+.tshop-um-sc-djs .item_box .btn .gd_share{
     margin-top: 9px;
     background: url(../../assets/images/icons.png) no-repeat;
 
@@ -177,8 +176,6 @@
     color: #fff;
     font-family: "Î¢ÈíÑÅºÚ";
     border-radius: 16px;
-    -o-border-radius: 16px;
-    -ms-border-radius: 16px;
     -webkit-border-radius: 16px;
     -moz-border-radius: 16px;
     width: 100px;
