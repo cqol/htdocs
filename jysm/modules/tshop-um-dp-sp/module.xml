@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-dp-sp</id>
+    <uuid>f60f90c77c694dfab19e39cea4141980</uuid>
+    <name>大店铺视频</name>
+    <file>tshop-um-dp-sp.php</file>
+    <thumbnail>../../assets/images/default-thumbnail.png</thumbnail>
+    <description>大店铺视频</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>990</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+        <theme name="简约绿">
+            <css>assets/stylesheets/green.css</css>
+        </theme>
+        <theme name="简约红">
+            <css>assets/stylesheets/red.css</css>
+        </theme>
+    </themes>
+    <parameters>
+        <group title="内容设置">
+            <section folded="false" title="头部设置">
+                <param readonly="false" ptype="text" name="sp" label="标题设置" formType="text" description="视频地址：仅支持淘宝视频地址">http://cloud.video.taobao.com/play/u/505753958/p/2/e/1/t/3/10682527.swf#tb_videoid=2432614</param>
+            </section>
+            <section folded="false" title="专区1设置">
+                <param readonly="false" ptype="text" name="yw1" label="英文" formType="text" description="专区标题:英文">digital</param>
+                <param readonly="false" ptype="text" name="zw1" label="英文" formType="text" description="专区标题:中文">数码专区</param>
+                <param readonly="false" ptype="text" name="img1" label="图片地址" formType="text" description="图片地址：300*225">assets/images/img_01.jpg</param>
+                <param readonly="false" ptype="text" name="link1" label="链接地址" formType="text" description="链接地址">#</param>
+            </section>
+            <section folded="false" title="专区2设置">
+                <param readonly="false" ptype="text" name="yw2" label="英文" formType="text" description="专区标题:英文">phone</param>
+                <param readonly="false" ptype="text" name="zw2" label="英文" formType="text" description="专区标题:中文">手机专区</param>
+                <param readonly="false" ptype="text" name="img2" label="图片地址" formType="text" description="图片地址：300*225">assets/images/img_02.jpg</param>
+                <param readonly="false" ptype="text" name="link2" label="链接地址" formType="text" description="链接地址">#</param>
+            </section>
+            <section folded="false" title="专区3设置">
+                <param readonly="false" ptype="text" name="yw3" label="英文" formType="text" description="专区标题:英文">display</param>
+                <param readonly="false" ptype="text" name="zw3" label="英文" formType="text" description="专区标题:中文">显示器专区</param>
+                <param readonly="false" ptype="text" name="img3" label="图片地址" formType="text" description="图片地址：300*225">assets/images/img_03.jpg</param>
+                <param readonly="false" ptype="text" name="link3" label="链接地址" formType="text" description="链接地址">#</param>
+            </section>
+        </group>
+    </parameters>
+</module>

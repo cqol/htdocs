@@ -12,5 +12,32 @@
         <theme name="默认">
             <css>assets/stylesheets/default.css</css>
         </theme>
+        <theme name="简约绿">
+            <css>assets/stylesheets/green.css</css>
+        </theme>
+        <theme name="简约红">
+            <css>assets/stylesheets/red.css</css>
+        </theme>
     </themes>
+    <parameters>
+        <group title="内容设置">
+            <section folded="false" title="显示排数">
+                <param readonly="false" ptype="number" name="ps" label="名称显示" formType="range" description="显示排数">
+                    <option value="2">显示2排</option>
+                    <option selected="selected" value="3">显示3排</option>
+                    <option value="4">显示4排</option>
+                    <option value="5">显示5排</option>
+                </param>
+            </section>
+            <section folded="false" title="头部设置">
+                <param readonly="false" ptype="text" name="head" label="标题设置" formType="text" description="标题设置">预售商品</param>
+                <param readonly="false" ptype="text" name="text" label="标题内容设置" formType="text" description="标题内容设置">购买越多，优惠越多</param>
+                <param readonly="false" ptype="text" name="more" label="更多设置" formType="text" description="更多设置">更多商品</param>
+                <param readonly="false" ptype="text" name="link" label="更多链接地址" formType="text" description="更多链接地址">#</param>
+            </section>
+            <section folded="true" title="商品宝贝设置">
+                <param readonly="false" ptype="item" name="items" label="宝贝选择" formType="itemForm" description="选择宝贝"/>
+            </section>
+        </group>
+    </parameters>
 </module>

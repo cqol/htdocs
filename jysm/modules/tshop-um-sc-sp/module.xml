@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-sc-sp</id>
+    <uuid>84812c64b8134463a72b5c1ddfa528f8</uuid>
+    <name>小视频模块</name>
+    <file>tshop-um-sc-sp.php</file>
+    <thumbnail>../../assets/images/default-thumbnail.png</thumbnail>
+    <description>小视频模块</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>790</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+        <theme name="简约绿">
+            <css>assets/stylesheets/green.css</css>
+        </theme>
+        <theme name="简约红">
+            <css>assets/stylesheets/red.css</css>
+        </theme>
+    </themes>
+    <parameters>
+        <group title="内容设置">
+            <section folded="false" title="头部设置">
+                <param readonly="false" ptype="text" name="sp" label="标题设置" formType="text" description="视频地址：仅支持淘宝视频地址">http://cloud.video.taobao.com/play/u/505753958/p/2/e/1/t/3/10682527.swf#tb_videoid=2432614</param>
+            </section>
+            <section folded="false" title="专区1设置">
+                <param readonly="false" ptype="text" name="yw1" label="英文" formType="text" description="专区标题:英文">digital</param>
+                <param readonly="false" ptype="text" name="zw1" label="英文" formType="text" description="专区标题:中文">数码专区</param>
+                <param readonly="false" ptype="text" name="img1" label="图片地址" formType="text" description="图片地址：300*225">assets/images/img_01.jpg</param>
+                <param readonly="false" ptype="text" name="link1" label="链接地址" formType="text" description="链接地址">#</param>
+            </section>
+        </group>
+    </parameters>
+</module>

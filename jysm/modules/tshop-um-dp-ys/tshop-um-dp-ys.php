@@ -1,37 +1,79 @@
+
 <div class="tb-module tshop-um tshop-um-dp-ys">
     <div class="wrap_hd">
         <h3 class="hd_title">
-            商品预售
+            <?
+                echo $_MODULE['head'];
+            ?>
         </h3>
-        <a href="#" target="_blank" class="hd_more">
-            更多商品
-        </a>
+        <p class="hd_info">
+            <?
+                echo $_MODULE['text'];
+            ?>
+        </p>
+        <?
+            echo '<a href="'. $_MODULE['link'].'" target="_blank" class="hd_more">
+                    '. $_MODULE['more'].'
+                </a>';
+        ?>
+
     </div>
 
     <div class="wrap_bd">
-        <ul>
-            <li class="pro_list">
-                <div class="pro_item">
-                    <div class="img_warp">
-                        <a href="#" target="_blank" class="alink" style="background: url(../../assets/images/b_pro_01.jpg) no-repeat center center"></a>
-                    </div>
-                    <p class="pro_price">
-                        <span class="price" style="">￥<span>888.00</span></span>
-                        <del class="del" style="">￥1200.00</del>
-                    </p>
-                    <a href="#" class="alink" target="_blank">
-                        iphoen zhi a oj j lj
-                    </a>
-                    <div class="btn">
-                        <?
-                           echo gd_sc(0, 12) . gd_share(0, 1, 'cq', 12);
-                        ?>
-                        <a href="#" class="gd_buy" target="_blank">
-                            点击进入
-                        </a>
-                    </div>
-                </div>
-            </li>
+        <?
+            $widt = $_MODULE['ps'];
+            $wi;
+            if ($widt == 2) {
+                $wi = 460;
+            } else if ($widt == 3) {
+                $wi = 300;
+            } else if ($widt == 4) {
+                $wi = 210;
+            }
+            else if ($widt == 5) {
+                $wi = 170;
+            }
+        echo '<ul class="ps'. $_MODULE['ps'].'">';
+        ?>
+            <?
+                $items=getItems($_MODULE['items'],$wi,$_MODULE['px'],6);
+                $j = 0;
+                foreach($items as $key => $item) {
+                         $popconfig = "{'trigger':'.img_pop".$j."','align':{'node':'.img_pop".$j."','offset':[0,0],'points':['lt','rb']}}";
+
+                        echo '<li class="pro_list">
+                        <div class="pro_item">
+                            <div class="img_warp">
+                                <a href="'.$item['link'].'" target="_blank" class="alink img_pop'.$j.'" style="'.bg_img($item['pic']).'"></a>
+                                <div class="mark_box J_TWidget"  data-widget-type="Popup" data-widget-config="'.$popconfig.'">
+                                    <div class="mark"></div>
+                                    <div class="ewm">
+                                        '.proewm(80,80,$item['id']).'
+                                    </div>
+                                    <div class="msg">
+                                        <span class="sale">已售：<s>'.$item['soldCount'].'</s>件</span>
+                                        '. gd_like($item['id']) .'
+                                        '.gd_car(0, $item['link'], '购物车').'
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="pro_price">
+                                '.price_cqol('',$item['discountPrice'],$item['price']).'
+                            </p>
+                            <a href="'.$item['link'].'" class="alink" target="_blank">
+                                '.$item['title'].'
+                            </a>
+                            <div class="btn">
+                                '.gd_sc(0, $item['id']) . gd_share(0, 1, 'cq', $item['id']).'
+                                <a href="'.$item['link'].'" class="gd_buy" target="_blank">
+                                    点击进入
+                                </a>
+                            </div>
+                        </div>
+                    </li>';
+                    $j++;
+                }
+            ?>
         </ul>
     </div>
 </div>

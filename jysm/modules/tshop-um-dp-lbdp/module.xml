@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-dp-lbdp</id>
+    <uuid>7d8dee9f43c941ed8d85fac246cf1704</uuid>
+    <name>轮播搭配</name>
+    <file>tshop-um-dp-lbdp.php</file>
+    <thumbnail>../../assets/images/default-thumbnail.png</thumbnail>
+    <description>轮播搭配</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>990</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+        <theme name="简约绿">
+            <css>assets/stylesheets/green.css</css>
+        </theme>
+        <theme name="简约红">
+            <css>assets/stylesheets/red.css</css>
+        </theme>
+    </themes>
+    <parameters>
+        <group title="内容设置">
+            <section folded="false" title="第1组设置">
+                <param readonly="false" ptype="text" name="title1" label="宝贝标题" formType="text" description="-">移动电源</param>
+                <param readonly="false" ptype="text" name="dt1" label="大图海报图片：363*480" formType="text" description="-">../../assets/images/img_02.jpg</param>
+                <param readonly="false" ptype="text" name="dlink1" label="海报链接地址" formType="text" description="-">#</param>
+                <param readonly="false" ptype="item" name="items1" label="宝贝选择" formType="itemForm" description="-"/>
+                <param readonly="false" ptype="text" name="px1" label="排序方式" formType="select" description="-">
+                    <option selected="selected" value=" ">按选择排序</option>
+                    <option value="hotsell">热销宝贝升序排序</option>
+                    <option value="_hotsell">热销宝贝降序排序</option>
+                    <option value="ceofp">人气宝贝升序排序</option>
+                    <option value="_ceofp">人气宝贝降序排序</option>
+                    <option value="price">以宝贝价格升序排序</option>
+                    <option value="_price">以宝贝价格降序排序</option>
+                    <option value="newOn">以最新上架宝贝升序排序</option>
+                    <option value="_newOn">以最新上架宝贝降序排序</option>
+                    <option value="HotKeep">以热门收藏升序排序</option>
+                    <option value="_HotKeep">以热门收藏降序排序</option>
+                </param>
+            </section>
+            <section folded="true" title="第2组设置">
+                <param readonly="false" ptype="text" name="title2" label="宝贝标题" formType="text" description="-">手机壳</param>
+                <param readonly="false" ptype="text" name="dt2" label="大图海报图片：363*480" formType="text" description="-">../../assets/images/img_02.jpg</param>
+                <param readonly="false" ptype="text" name="dlink2" label="海报链接地址" formType="text" description="-">#</param>
+                <param readonly="false" ptype="item" name="items2" label="宝贝选择" formType="itemForm" description="-"/>
+                <param readonly="false" ptype="text" name="px2" label="排序方式" formType="select" description="-">
+                    <option selected="selected" value=" ">按选择排序</option>
+                    <option value="hotsell">热销宝贝升序排序</option>
+                    <option value="_hotsell">热销宝贝降序排序</option>
+                    <option value="ceofp">人气宝贝升序排序</option>
+                    <option value="_ceofp">人气宝贝降序排序</option>
+                    <option value="price">以宝贝价格升序排序</option>
+                    <option value="_price">以宝贝价格降序排序</option>
+                    <option value="newOn">以最新上架宝贝升序排序</option>
+                    <option value="_newOn">以最新上架宝贝降序排序</option>
+                    <option value="HotKeep">以热门收藏升序排序</option>
+                    <option value="_HotKeep">以热门收藏降序排序</option>
+                </param>
+            </section>
+            <section folded="true" title="第3组设置">
+                <param readonly="false" ptype="text" name="title3" label="宝贝标题" formType="text" description="-">扫描仪</param>
+                <param readonly="false" ptype="text" name="dt3" label="大图海报图片：363*480" formType="text" description="-">../../assets/images/img_02.jpg</param>
+                <param readonly="false" ptype="text" name="dlink3" label="海报链接地址" formType="text" description="-">#</param>
+                <param readonly="false" ptype="item" name="items3" label="宝贝选择" formType="itemForm" description="-"/>
+                <param readonly="false" ptype="text" name="px3" label="排序方式" formType="select" description="-">
+                    <option selected="selected" value=" ">按选择排序</option>
+                    <option value="hotsell">热销宝贝升序排序</option>
+                    <option value="_hotsell">热销宝贝降序排序</option>
+                    <option value="ceofp">人气宝贝升序排序</option>
+                    <option value="_ceofp">人气宝贝降序排序</option>
+                    <option value="price">以宝贝价格升序排序</option>
+                    <option value="_price">以宝贝价格降序排序</option>
+                    <option value="newOn">以最新上架宝贝升序排序</option>
+                    <option value="_newOn">以最新上架宝贝降序排序</option>
+                    <option value="HotKeep">以热门收藏升序排序</option>
+                    <option value="_HotKeep">以热门收藏降序排序</option>
+                </param>
+            </section>
+        </group>
+        <group title="动画设置">
+            <section folded="false">
+                <param readonly="false" ptype="text" name="effect" label="播放方式" formType="select" description=" ">
+                    <option selected="selected" value="scrollx">水平滚动</option>
+                    <option value="scrolly">垂直滚动</option>
+                    <option value="fade">淡入淡出</option>
+                    <option value="none">禁用效果</option>
+                </param>
+                <param readonly="false" ptype="text" name="easing" label="轮播效果" formType="select" description=" ">
+                    <option selected="selected" value="easeOutStrong">由快到慢 - 强</option>
+                    <option value="easeInStrong">由慢到快 - 强</option>
+                    <option value="easeBothStrong">动感弹性</option>
+                    <option value="elasticIn">变幻抖动</option>
+                    <option value="elasticOut">抖动变幻</option>
+                    <option value="backOut">来回震动</option>
+                    <option value="bounceOut">动感弹跳</option>
+                    <option value="bounceBoth">动感抖动</option>
+                    <option value="easeIn">由慢到快 - 弱</option>
+                    <option value="easeOut">由快到慢 - 弱</option>
+                    <option
+                        value="easeBoth">原始简单滚动</option>
+                    <option value="easeNone">原始简单均速</option>
+                </param>
+                <param readonly="false" ptype="text" name="autoplay" label="切换方式" formType="range" description=" ">
+                    <option selected="selected" value="true">自动播放</option>
+                    <option value="false">手动控制</option>
+                </param>
+                <param readonly="false" ptype="text" name="duration" label="切换速度" formType="text" description="图片切换时间,默认1s">1</param>
+                <param readonly="false" ptype="text" name="interval" label="停留时间" formType="text" description="图片停留时间,默认3s">3</param>
+            </section>
+        </group>
+    </parameters>
+</module>

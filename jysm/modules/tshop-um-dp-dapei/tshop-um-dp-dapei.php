@@ -5,7 +5,8 @@
         </div>
         <div class="main_left">
             <?
-                $pro = getItems($_MODULE['items1'], 320, 'hotsell', 1)[0];
+            $pros = getItems($_MODULE['items1'], 320, 'hotsell', 1);
+            foreach($pros as $key => $pro) {
                 echo '<div>
                         <a href="'.$pro['link'].'" class="alink" target="_blank"
                            style="'.bg_img($pro['pic']).'"></a>
@@ -21,6 +22,8 @@
                     <div class="ewm">
                         '.proewm(80, 80, $pro['id']).'
                     </div>';
+            }
+
             ?>
         </div>
 
@@ -28,7 +31,7 @@
             <div class="item_box">
                 <ul>
                     <?
-                        $items=getItems($_MODULE['items'],350,$_MODULE['px'],6);
+                        $items=getItems($_MODULE['items'],160,$_MODULE['px'],6);
                         foreach($items as $key => $item) {
                             echo '<li class="item_pro">
                                     <a href="'.$item['link'].'" target="_blank" class="alink" style="'.bg_img($item['pic']).'">

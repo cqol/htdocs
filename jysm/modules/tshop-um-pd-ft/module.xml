@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-pd-ft</id>
+    <uuid>f23bef8ffa1144caa0a1440383e0f22a</uuid>
+    <name>店铺底部</name>
+    <file>tshop-um-pd-ft.php</file>
+    <thumbnail>../../assets/images/default-thumbnail.png</thumbnail>
+    <description>店铺底部</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>990</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+        <theme name="简约绿">
+            <css>assets/stylesheets/green.css</css>
+        </theme>
+        <theme name="简约红">
+            <css>assets/stylesheets/red.css</css>
+        </theme>
+    </themes>
+    <parameters>
+        <group title="内容设置">
+            <section folded="false" title="活动链接">
+                <param readonly="false" ptype="text" name="name" label="链接名称" formType="text" description="多个以|分割,不填则不显示">店铺首页|信用评价|所有宝贝|我的订单|听掌柜说|收藏我们|返回顶部</param>
+                <param readonly="false" ptype="textarea" name="link" label="链接地址" formType="textarea" description="以|分割,与名称对应">#|#|#|#|#|#|#</param>
+                <param readonly="false" ptype="text" name="name1" label="链接名称2" formType="text" description="多个以|分割,不填则不显示">店铺首页|信用评价|最新活动|新品会场|爆款会场|套餐会场|返回顶部</param>
+                <param readonly="false" ptype="textarea" name="link1" label="链接地址2" formType="textarea" description="以|分割,与名称对应">#|#|#|#|#|#|#</param>
+                <param readonly="false" ptype="text" name="name2" label="链接名称3" formType="text" description="多个以|分割,不填则不显示">店铺首页|信用评价|最新活动|新品会场|爆款会场|套餐会场|返回顶部</param>
+                <param readonly="false" ptype="textarea" name="link2" label="链接地址3" formType="textarea" description="以|分割,与名称对应">#|#|#|#|#|#|#</param>
+            </section>
+            <section folded="false" title="客服设置设置">
+                <param readonly="false" ptype="text" name="ww_id1" label="售前旺旺ID" formType="text" description="以|分隔，不填则自动调用主号"/>
+                <param readonly="false" ptype="text" name="ww_id2" label="售后旺旺ID" formType="text" description="同上"/>
+                <param readonly="false" ptype="text" name="ts" label="客服提示" formType="text" description="简短">客服在线时间:09:00--24:00</param>
+            </section>
+            <section folded="false" title="图片活动入口">
+                <param readonly="false" ptype="text" name="lebo" label="图片地址：103*103" formType="text" description="图片地址">assets/images/lebo.png</param>
+                <param readonly="false" ptype="text" name="lebolink" label="链接地址" formType="text" description="链接地址">#</param>
+            </section>
+        </group>
+    </parameters>
+</module>

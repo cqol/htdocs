@@ -1,12 +1,18 @@
 {
-  "title" : "ƒ¨»œ±¶±¥∑÷¿‡“≥",
+  "title" : null,
   "layouts" : [ {
     "type" : "grid-s5m0",
     "modules" : {
-      "main" : [ {
-        "moduleID" : "tshop-pbsm-tmall-srch-list"
+      "sub" : [ {
+        "moduleID" : "tshop-um-sc-kf"
       } ],
-      "sub" : [ ]
+      "main" : [ {
+        "moduleID" : "tshop-um-sc-sp"
+      }, {
+        "moduleID" : "tshop-um-pic-lb"
+      }, {
+        "moduleID" : "tshop-pbsm-tmall-srch-list"
+      } ]
     }
   } ]
 }

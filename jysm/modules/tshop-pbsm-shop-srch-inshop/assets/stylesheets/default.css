@@ -1,0 +1,12 @@
+.tshop-pbsm-shop-srch-inshop {
+    position: relative;
+    z-index: 12;
+    margin-bottom: 10px;
+    color: black;
+    background-color: #fff;
+}
+.tshop-pbsm-shop-srch-inshop .skin-box-bd .hot-keys a{
+    color: #333;
+}
+ 
+

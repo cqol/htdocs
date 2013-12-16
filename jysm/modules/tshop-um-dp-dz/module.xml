@@ -12,28 +12,34 @@
         <theme name="默认">
             <css>assets/stylesheets/default.css</css>
         </theme>
+        <theme name="简约绿">
+            <css>assets/stylesheets/green.css</css>
+        </theme>
+        <theme name="简约红">
+            <css>assets/stylesheets/red.css</css>
+        </theme>
     </themes>
     <parameters>
         <group title="店招设置">
-            <section title="店招图片" folded="false">
-                <param description="图片地址:990*120" formType="text" label="店招图片" name="dz_pic" ptype="text" readonly="false">assets/images/h_pic1.jpg</param>
+            <section folded="false" title="店招图片">
+                <param readonly="false" ptype="text" name="dz_pic" label="店招图片" formType="text" description="图片地址:990*120"></param>
             </section>
-            <section title="分享收藏设置" folded="false">
-                <param description="是否显示收藏" formType="range" label="收藏设置" name="sc_show" ptype="number" readonly="false">
-                    <option value="0" selected="selected">显示</option>
+            <section folded="false" title="分享收藏设置">
+                <param readonly="false" ptype="number" name="sc_show" label="收藏设置" formType="range" description="是否显示收藏">
+                    <option selected="selected" value="0">显示</option>
                     <option value="1">不显示</option>
                 </param>
-                <param description="是否显示分享" formType="range" label="分享设置" name="fx_show" ptype="number" readonly="false">
-                    <option value="0" selected="selected">显示</option>
+                <param readonly="false" ptype="number" name="fx_show" label="分享设置" formType="range" description="是否显示分享">
+                    <option selected="selected" value="0">显示</option>
                     <option value="1">不显示</option>
                 </param>
             </section>
         </group>
         <group title="导航设置">
-            <section title="导航设置" folded="false">
-                <param description="名称以| 隔开,不填则不显示" formType="text" label="导航名称" name="dh_nav" ptype="text" readonly="false">首页|Store|iPhone|iMac|iPad</param>
-                <param description="以| 隔开,与名称对应" formType="textarea" label="导航链接" name="dh_link" ptype="textarea" readonly="false">#|#|#|#|#</param>
-                <param description="以| 隔开,与名称对应,0表示没有,1表示new,2表示hot,3表示sale" formType="text" label="导航图标" name="dh_tb" ptype="text" readonly="false">0|2|1|0|3</param>
+            <section folded="false" title="导航设置">
+                <param readonly="false" ptype="text" name="dh_nav" label="导航名称" formType="text" description="名称以| 隔开,不填则不显示">首页|Store|iPhone|iMac|iPad</param>
+                <param readonly="false" ptype="textarea" name="dh_link" label="导航链接" formType="textarea" description="以| 隔开,与名称对应">#|#|#|#|#</param>
+                <param readonly="false" ptype="text" name="dh_tb" label="导航图标" formType="text" description="以| 隔开,与名称对应,0表示没有,1表示new,2表示hot,3表示sale">0|2|1|0|3</param>
             </section>
         </group>
     </parameters>
