@@ -2,6 +2,7 @@
 .gitigore
 .idea
 dist/*
+zhuzhu_tm
 *.zip
 *.rar
 *.via

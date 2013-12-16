@@ -24,7 +24,7 @@
                     </a>
                     <div class="btn">
                         <?
-                           echo ''.gd_sc(0, 12) . gd_share(0, 1, 'cq', 12).'';
+                           echo gd_sc(0, 12) . gd_share(0, 1, 'cq', 12);
                         ?>
                         <a href="#" class="gd_buy" target="_blank">
                             µã»÷½øÈë
