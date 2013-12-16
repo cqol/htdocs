@@ -83,6 +83,10 @@
     width: 150px;
     height: 150px;
     overflow: hidden;
+    border: 1px #fff solid;
+}
+.tshop-um-dp-dapei .wrap_bd .main_right .item_box a:hover {
+    border: 1px #1b77d6 solid;
 }
 
 .tshop-um-dp-dapei .wrap_bd .main_right .item_box .item_pro p {

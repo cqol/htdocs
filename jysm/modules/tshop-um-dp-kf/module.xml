@@ -22,12 +22,6 @@
     <parameters>
         <group title="客服设置">
             <section folded="false" title="">
-                <param readonly="false" ptype="number" name="kf_style" label="风格选择" formType="range" description="客服风格">
-                    <option selected="selected" value="0">默认</option>
-                    <option value="1">个性头像</option>
-                </param>
-            </section>
-            <section folded="false" title="">
                 <param readonly="false" ptype="text" name="ww_name1" label="①…售前昵称" formType="text" description="以|分隔">乐乐|博博|乐乐|博博|乐乐|博博|博博</param>
                 <param readonly="false" ptype="text" name="ww_id1" label="旺旺ID" formType="text" description="以|分隔,与名称对应，不填则自动调用主号"/>
                 <param readonly="false" ptype="text" name="ww_name2" label="②…售后昵称" formType="text" description="以|分隔">乐乐|博博|乐乐|博博|乐乐|博博|博博</param>

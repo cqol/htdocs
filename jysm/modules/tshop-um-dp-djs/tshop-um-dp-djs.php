@@ -4,26 +4,32 @@
     }else{
         $region=$regionWidth;
     }
+
 ?>
 <div class="tb-module tshop-um tshop-um-dp-djs" style=" <? width($region) ?>">
-    <div class="wrap_hd">
-        <h3 class="hd_title">
-            <?
-            echo $_MODULE['head'];
-            ?>
-        </h3>
-        <p class="hd_info">
-            <?
-            echo $_MODULE['text'];
-            ?>
-        </p>
-        <?
-        echo '<a href="'. $_MODULE['link'].'" target="_blank" class="hd_more">
+    <?
+        if ($_MODULE['sc_show'] == 0) {?>
+            <div class="wrap_hd">
+                <h3 class="hd_title">
+                    <?
+                    echo $_MODULE['head'];
+                    ?>
+                </h3>
+                <p class="hd_info">
+                    <?
+                    echo $_MODULE['text'];
+                    ?>
+                </p>
+                <?
+                echo '<a href="'. $_MODULE['link'].'" target="_blank" class="hd_more">
                     '. $_MODULE['more'].'
                 </a>';
-        ?>
+                ?>
 
-    </div>
+            </div>
+        <?}
+    ?>
+
 
     <div class="wrap_bd mk_<? echo $region ?>" >
         <ul>
@@ -58,26 +64,26 @@
                                     <a href="'.$item['link'].'" class="alink" target="_blank">
                                         '.$item['title'].'
                                     </a>
-                                </p>
-                                <div class="btn">
+                                </p>';
+                        if ($_MODULE['an_show'] == 0) {
+                            echo '<div class="btn">
                                     '.gd_sc(0, $item['id']) . gd_share(0, 1, 'cq', $item['id']).'
                                     <div class="ww">
-                                        '.$uriManager->supportTag($_user->nick,"请点击直接访问",2,true).'
+                                        '.$uriManager->supportTag($_user->nick,"点我联系",2,true).'
                                     </div>
-                                </div>
+                                </div>';
+                        }
 
 
-                                <div class="J_TWidget item_time" data-widget-type="Countdown" style="'.$dis.'"  data-widget-config="'.$djs.'">
+
+                          echo '<div class="J_TWidget item_time" data-widget-type="Countdown" style="'.$dis.'"  data-widget-config="'.$djs.'">
                                     <div class="ks-countdown-run">
                                         <span class="ks-d"></span>天
                                         <span class="ks-h"></span>:
                                         <span class="ks-m"></span>:
-                                        <!-- 如果有0.1秒级别的变化建议以gif背景图片的形式变化 -->
                                         <span class="ks-s"></span>
                                     </div>
 
-                                    <!-- 倒计时结束时显示-->
-                                    <!--可以写多个 -->
                                     <div class="ks-countdown-end">
                                         <div>
                                             活动结束

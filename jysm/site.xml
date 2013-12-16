@@ -5,13 +5,13 @@
     <author name="[提示：请添加模板作者名称]" url="http://www.yourwebsite.com" wangwang="[提示：请添加模板作者的旺旺]"></author>
     <thumbnail>assets/images/default-thumbnail.png</thumbnail>
     <language>PHP</language>
-    <version>1.0.2</version>
+    <version>1.0.4</version>
     <apply-sites>3</apply-sites>
     <apply-user></apply-user>
     <template-type>2</template-type>
     <sale-type>1</sale-type>
-    <change-notes>[提示：请添加模板修改日志1]</change-notes>
-    <description>简约数码——02</description>
+    <change-notes>[提示：请添加模板修改日志4]</change-notes>
+    <description>简约数码——04</description>
     <global>
         <header>header.json</header>
         <footer>footer.json</footer>

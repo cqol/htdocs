@@ -22,6 +22,10 @@
     <parameters>
         <group title="头部设置">
             <section title="头部设置" folded="false">
+                <param description="是否显示头部" formType="range" label="是否显示头部" name="sc_show" ptype="number" readonly="false">
+                    <option value="0" selected="selected">显示</option>
+                    <option value="1">不显示</option>
+                </param>
                 <param description="标题设置" formType="text" label="标题设置" name="head" ptype="text" readonly="false">预售商品234</param>
                 <param description="标题内容设置" formType="text" label="标题内容设置" name="text" ptype="text" readonly="false">购买越多，优惠越多</param>
                 <param description="更多设置" formType="text" label="更多设置" name="more" ptype="text" readonly="false">更多商品</param>

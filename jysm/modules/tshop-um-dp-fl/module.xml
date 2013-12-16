@@ -21,12 +21,6 @@
     </themes>
     <parameters>
         <group title="分类设置">
-            <section folded="false" title="">
-                <param readonly="false" ptype="number" name="fl_style" label="风格选择" formType="range" description="分类风格">
-                    <option selected="selected" value="1">竖排风格</option>
-                    <option value="2">横排风格</option>
-                </param>
-            </section>
             <section folded="false" title="模式组数">
                 <param readonly="false" ptype="number" name="items_num" label="分类组数" formType="select" description="最多6组">
                     <option value="1">1组</option>

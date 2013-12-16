@@ -21,7 +21,7 @@
     </themes>
     <parameters>
         <group title="内容设置">
-            <section folded="false" title="头部设置">
+            <section folded="false" title="视频地址设置">
                 <param readonly="false" ptype="text" name="sp" label="标题设置" formType="text" description="视频地址：仅支持淘宝视频地址">http://cloud.video.taobao.com/play/u/505753958/p/2/e/1/t/3/10682527.swf#tb_videoid=2432614</param>
             </section>
             <section folded="false" title="专区1设置">

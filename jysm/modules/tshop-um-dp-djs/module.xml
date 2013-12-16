@@ -22,6 +22,10 @@
     <parameters>
         <group title="头部设置">
             <section folded="false" title="头部设置">
+                <param description="是否显示头部" formType="range" label="是否显示头部" name="sc_show" ptype="number" readonly="false">
+                    <option value="0" selected="selected">显示</option>
+                    <option value="1">不显示</option>
+                </param>
                 <param readonly="false" ptype="text" name="head" label="标题设置" formType="text" description="标题设置">预售商品234</param>
                 <param readonly="false" ptype="text" name="text" label="标题内容设置" formType="text" description="标题内容设置">购买越多，优惠越多</param>
                 <param readonly="false" ptype="text" name="more" label="更多设置" formType="text" description="更多设置">更多商品</param>
@@ -33,6 +37,10 @@
                 <param readonly="false" ptype="number" name="gd_num" label="宝贝个数" formType="select" description="990可选择4个和8个；790请选择3个或6个">
                     <option value="4">4个</option>
                     <option selected="selected" value="8">8个</option>
+                </param>
+                <param description="是否显示按钮" formType="range" label="是否显示按钮" name="an_show" ptype="number" readonly="false">
+                    <option value="0" selected="selected">显示</option>
+                    <option value="1">不显示</option>
                 </param>
             </section>
             <section folded="false" title="宝贝1设置">
