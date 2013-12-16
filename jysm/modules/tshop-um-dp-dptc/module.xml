@@ -21,57 +21,57 @@
     </themes>
     <parameters>
         <group title="头部设置">
-            <section folded="false" title="头部设置">
-                <param readonly="false" ptype="text" name="head" label="标题设置" formType="text" description="标题设置">预售商品234</param>
-                <param readonly="false" ptype="text" name="text" label="标题内容设置" formType="text" description="标题内容设置">购买越多，优惠越多</param>
-                <param readonly="false" ptype="text" name="more" label="更多设置" formType="text" description="更多设置">更多商品</param>
-                <param readonly="false" ptype="text" name="link" label="更多链接地址" formType="text" description="更多链接地址">#</param>
+            <section title="头部设置" folded="false">
+                <param description="标题设置" formType="text" label="标题设置" name="head" ptype="text" readonly="false">预售商品234</param>
+                <param description="标题内容设置" formType="text" label="标题内容设置" name="text" ptype="text" readonly="false">购买越多，优惠越多</param>
+                <param description="更多设置" formType="text" label="更多设置" name="more" ptype="text" readonly="false">更多商品</param>
+                <param description="更多链接地址" formType="text" label="更多链接地址" name="link" ptype="text" readonly="false">#</param>
             </section>
         </group>
         <group title="商品设置">
-            <section folded="false" title="数量设置">
-                <param readonly="false" ptype="number" name="gd_num" label="宝贝个数" formType="select" description="选择行数">
+            <section title="数量设置" folded="false">
+                <param description="选择行数" formType="select" label="宝贝个数" name="gd_num" ptype="number" readonly="false">
                     <option value="1">1行</option>
                     <option value="2">2行</option>
                     <option value="3">3行</option>
-                    <option selected="selected" value="4">4行</option>
+                    <option value="4" selected="selected">4行</option>
                     <option value="5">5行</option>
                 </param>
             </section>
-            <section folded="false" title="宝贝1设置">
-                <param readonly="false" ptype="item" name="items1" label="宝贝选择" formType="itemForm" description="选择1个宝贝">36008363364,8472503946,8471294134,8469683990,8456434904</param>
-                <param readonly="false" ptype="text" name="zw1" label="标题" formType="text" description="标题：中文">数码配件</param>
-                <param readonly="false" ptype="text" name="yw1" label="标题" formType="text" description="标题：英文">Digital accessories</param>
-                <param readonly="false" ptype="text" name="pic1" label="宝贝图片" formType="text" description="大小:230*230,不填则自动获取"/>
-                <param readonly="false" ptype="text" name="bt1" label="宝贝标题" formType="text" description="简短">iphone4S手机壳</param>
+            <section title="宝贝1设置" folded="false">
+                <param description="选择1个宝贝" formType="itemForm" label="宝贝选择" name="items1" ptype="item" readonly="false">36008363364,7,6,2,3,4</param>
+                <param description="标题：中文" formType="text" label="标题" name="zw1" ptype="text" readonly="false">数码配件</param>
+                <param description="标题：英文" formType="text" label="标题" name="yw1" ptype="text" readonly="false">Digital accessories</param>
+                <param description="大小:230*230,不填则自动获取" formType="text" label="宝贝图片" name="pic1" ptype="text" readonly="false"></param>
+                <param description="简短" formType="text" label="宝贝标题" name="bt1" ptype="text" readonly="false">iphone4S手机壳</param>
             </section>
-            <section folded="true" title="宝贝2设置">
-                <param readonly="false" ptype="item" name="items2" label="宝贝选择" formType="itemForm" description="选择1个宝贝"/>
-                <param readonly="false" ptype="text" name="zw2" label="标题" formType="text" description="标题：中文">配件</param>
-                <param readonly="false" ptype="text" name="yw2" label="标题" formType="text" description="标题：英文">Digital</param>
-                <param readonly="false" ptype="text" name="pic2" label="宝贝图片" formType="text" description="大小:230*230,不填则自动获取"/>
-                <param readonly="false" ptype="text" name="bt2" label="宝贝标题" formType="text" description="简短">iphone4S手机壳</param>
+            <section title="宝贝2设置" folded="true">
+                <param description="选择1个宝贝" formType="itemForm" label="宝贝选择" name="items2" ptype="item" readonly="false"/>
+                <param description="标题：中文" formType="text" label="标题" name="zw2" ptype="text" readonly="false">配件</param>
+                <param description="标题：英文" formType="text" label="标题" name="yw2" ptype="text" readonly="false">Digital</param>
+                <param description="大小:230*230,不填则自动获取" formType="text" label="宝贝图片" name="pic2" ptype="text" readonly="false"></param>
+                <param description="简短" formType="text" label="宝贝标题" name="bt2" ptype="text" readonly="false">iphone4S手机壳</param>
             </section>
-            <section folded="true" title="宝贝3设置">
-                <param readonly="false" ptype="item" name="items3" label="宝贝选择" formType="itemForm" description="选择1个宝贝"/>
-                <param readonly="false" ptype="text" name="zw3" label="标题" formType="text" description="标题：中文">数码配件</param>
-                <param readonly="false" ptype="text" name="yw3" label="标题" formType="text" description="标题：英文">Digital accessories</param>
-                <param readonly="false" ptype="text" name="pic3" label="宝贝图片" formType="text" description="大小:230*230,不填则自动获取"/>
-                <param readonly="false" ptype="text" name="bt3" label="宝贝标题" formType="text" description="简短">iphone4S手机壳</param>
+            <section title="宝贝3设置" folded="true">
+                <param description="选择1个宝贝" formType="itemForm" label="宝贝选择" name="items3" ptype="item" readonly="false"/>
+                <param description="标题：中文" formType="text" label="标题" name="zw3" ptype="text" readonly="false">数码配件</param>
+                <param description="标题：英文" formType="text" label="标题" name="yw3" ptype="text" readonly="false">Digital accessories</param>
+                <param description="大小:230*230,不填则自动获取" formType="text" label="宝贝图片" name="pic3" ptype="text" readonly="false"></param>
+                <param description="简短" formType="text" label="宝贝标题" name="bt3" ptype="text" readonly="false">iphone4S手机壳</param>
             </section>
-            <section folded="true" title="宝贝4设置">
-                <param readonly="false" ptype="item" name="items4" label="宝贝选择" formType="itemForm" description="选择1个宝贝"/>
-                <param readonly="false" ptype="text" name="zw4" label="标题" formType="text" description="标题：中文">数码配件</param>
-                <param readonly="false" ptype="text" name="yw4" label="标题" formType="text" description="标题：英文">Digital accessories</param>
-                <param readonly="false" ptype="text" name="pic4" label="宝贝图片" formType="text" description="大小:230*230,不填则自动获取"/>
-                <param readonly="false" ptype="text" name="bt4" label="宝贝标题" formType="text" description="简短">iphone4S手机壳</param>
+            <section title="宝贝4设置" folded="true">
+                <param description="选择1个宝贝" formType="itemForm" label="宝贝选择" name="items4" ptype="item" readonly="false"/>
+                <param description="标题：中文" formType="text" label="标题" name="zw4" ptype="text" readonly="false">数码配件</param>
+                <param description="标题：英文" formType="text" label="标题" name="yw4" ptype="text" readonly="false">Digital accessories</param>
+                <param description="大小:230*230,不填则自动获取" formType="text" label="宝贝图片" name="pic4" ptype="text" readonly="false"></param>
+                <param description="简短" formType="text" label="宝贝标题" name="bt4" ptype="text" readonly="false">iphone4S手机壳</param>
             </section>
-            <section folded="true" title="宝贝5设置">
-                <param readonly="false" ptype="item" name="items5" label="宝贝选择" formType="itemForm" description="选择1个宝贝"/>
-                <param readonly="false" ptype="text" name="zw5" label="标题" formType="text" description="标题：中文">数码配件</param>
-                <param readonly="false" ptype="text" name="yw5" label="标题" formType="text" description="标题：英文">Digital accessories</param>
-                <param readonly="false" ptype="text" name="pic5" label="宝贝图片" formType="text" description="大小:230*230,不填则自动获取"/>
-                <param readonly="false" ptype="text" name="bt5" label="宝贝标题" formType="text" description="简短">iphone4S手机壳</param>
+            <section title="宝贝5设置" folded="true">
+                <param description="选择1个宝贝" formType="itemForm" label="宝贝选择" name="items5" ptype="item" readonly="false"/>
+                <param description="标题：中文" formType="text" label="标题" name="zw5" ptype="text" readonly="false">数码配件</param>
+                <param description="标题：英文" formType="text" label="标题" name="yw5" ptype="text" readonly="false">Digital accessories</param>
+                <param description="大小:230*230,不填则自动获取" formType="text" label="宝贝图片" name="pic5" ptype="text" readonly="false"></param>
+                <param description="简短" formType="text" label="宝贝标题" name="bt5" ptype="text" readonly="false">iphone4S手机壳</param>
             </section>
         </group>
     </parameters>

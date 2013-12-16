@@ -1,6 +1,6 @@
 
 <div class="tb-module tshop-um tshop-um-dp-lbdp">
-    <div class="wrap_bd" data-widget-type="Carousel" data-widget-config="{'effect':'<?php echo $_MODULE["effect"];?>','easing':'<?php echo $_MODULE["easing"];?>','autoplay': <?php echo $_MODULE["autoplay"];?>,'duration':<?php echo $_MODULE["duration"];?>,'interval':<?php echo $_MODULE["interval"];?>,'navCls':'lb_nav','contentCls':'lb_bd' }">
+    <div class="wrap_bd J_TWidget" data-widget-type="Carousel" data-widget-config="{'effect':'<?php echo $_MODULE["effect"];?>','easing':'<?php echo $_MODULE["easing"];?>','autoplay': <?php echo $_MODULE["autoplay"];?>,'duration':<?php echo $_MODULE["duration"];?>,'interval':<?php echo $_MODULE["interval"];?>,'navCls':'lb_nav','contentCls':'lb_bd' }">
         <div class="nav">
             <ul class="lb_nav">
                 <?php

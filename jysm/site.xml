@@ -2,16 +2,16 @@
 <site>
     <id>21a16df16c3240e7b39c74e65fe5fddb</id>
     <name>简约数码</name>
-    <author wangwang="[提示：请添加模板作者的旺旺]" url="http://www.yourwebsite.com" name="[提示：请添加模板作者名称]"></author>
+    <author name="[提示：请添加模板作者名称]" url="http://www.yourwebsite.com" wangwang="[提示：请添加模板作者的旺旺]"></author>
     <thumbnail>assets/images/default-thumbnail.png</thumbnail>
     <language>PHP</language>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <apply-sites>3</apply-sites>
     <apply-user></apply-user>
     <template-type>2</template-type>
     <sale-type>1</sale-type>
-    <change-notes>[提示：请添加模板修改日志]</change-notes>
-    <description>简约数码——01</description>
+    <change-notes>[提示：请添加模板修改日志1]</change-notes>
+    <description>简约数码——02</description>
     <global>
         <header>header.json</header>
         <footer>footer.json</footer>
@@ -21,12 +21,12 @@
             <css>assets/stylesheets/default/extra.css</css>
             <thumbnail>assets/images/default-thumbnail.png</thumbnail>
         </theme>
-        <theme name="简约红">
-            <css>assets/stylesheets/red/extra.css</css>
-            <thumbnail>assets/images/default-thumbnail.png</thumbnail>
-        </theme>
         <theme name="简约绿">
             <css>assets/stylesheets/green/extra.css</css>
+            <thumbnail>assets/images/default-thumbnail.png</thumbnail>
+        </theme>
+        <theme name="简约红">
+            <css>assets/stylesheets/red/extra.css</css>
             <thumbnail>assets/images/default-thumbnail.png</thumbnail>
         </theme>
     </themes>

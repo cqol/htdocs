@@ -1,13 +1,81 @@
-/**
- * 模块：tshop-um-sc-kf 
- * 皮肤（主题）: 简约红
- * 规则:
- * 		1. CSS选择器必须包含 ".tshop-um-sc-kf"，禁止使用模块页面元素的ID选择器
- *		2. CSS样式声明的position属性值不能使用:fixed
- *		3. CSS样式文件中z-index属性值必须在1-99之间
- *		4. CSS URL地址必须是淘宝URL白名单中或者本地（相对或绝对）URL 
- */
 
-.tshop-um-sc-kf {color:black;}
+.tshop-um-sc-kf {
+    color:black;
+    position: relative;
+    z-index: 12;
+    margin-bottom: 10px;
+    background-color: #fff;
+}
 
+.tshop-um-sc-kf .sc {
+    width: 190px;
+    height: 190px;
+    background: url(assets/images/mark_02.jpg) no-repeat;
+    display: block;
+    overflow: hidden;
+    margin-bottom: 7px;
+}
+.tshop-um-sc-kf .mk_hd {
+    width: 190px;
+    background-color: #e0e2e5;
+    height: 40px;
+    overflow: hidden;
+}
+.tshop-um-sc-kf .mk_hd span{
+    height: 40px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    display: block;
+    padding-left: 16px;
+    line-height: 40px;
+    width: 157px;
+    background: url(../../assets/images/icons.png) no-repeat 0 -185px;
+}
+
+.tshop-um-sc-kf .cont {
+    width: 170px;
+    padding: 0 9px 10px;
+    color: #2a2a2a;
+    border-top: none;
+    overflow: hidden;
+}
+
+.tshop-um-sc-kf .cont .line {
+    overflow: hidden;
+}
+
+.tshop-um-sc-kf h3 {
+    line-height: 36px;
+}
+
+.tshop-um-sc-kf ul {
+    width: 180px;
+}
+
+.tshop-um-sc-kf li {
+    padding-right: 15px;
+    height: 24px;
+    float: left;
+}
+
+.tshop-um-sc-kf li span, .tshop-um-sc-kf li a {
+    float: left;
+}
+
+.tshop-um-sc-kf li span {
+    padding-left: 2px;
+    float: left;
+    line-height: 16px;
+    *line-height: 20px;
+}
+
+.tshop-um-sc-kf li img {
+    float: left;
+    display: block;
+}
+
+.tshop-um-sc-kf .time {
+    padding: 5px 0;
+}
  

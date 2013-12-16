@@ -1,13 +1,53 @@
-/**
- * 模块：tshop-um-dp-cate 
- * 皮肤（主题）: 简约红
- * 规则:
- * 		1. CSS选择器必须包含 ".tshop-um-dp-cate"，禁止使用模块页面元素的ID选择器
- *		2. CSS样式声明的position属性值不能使用:fixed
- *		3. CSS样式文件中z-index属性值必须在1-99之间
- *		4. CSS URL地址必须是淘宝URL白名单中或者本地（相对或绝对）URL 
- */
+.tshop-um-dp-cate a:hover {
+    text-decoration: none;
+}
 
-.tshop-um-dp-cate {color:black;}
+.tshop-um-dp-cate a {
+    color: #fff;
+}
+.tshop-um-dp-cate .pop_nav {
+    display: none;
+}
+.tshop-um-dp-cate .pop_nav_wrap  {
+    width: 260px;
+    position: absolute;
+    left: 0;
+}
+
+.tshop-um-dp-cate .pop_nav_wrap .pop_tab_hd{
+    display: block;
+    height: 38px;
+    line-height: 38px;
+    color: #fff;
+    padding-left: 12px;
+    font-size: 12px;
+    background-color: #de1111;
+}
+.tshop-um-dp-cate .pop_nav_wrap .fushu {
+    background-color: #cc0e0e;
+}
+.tshop-um-dp-cate .pop_nav_wrap .ks-active{
+    background-color: #910000;
+    height: 34px;
+    outline: none;
+}
+.tshop-um-dp-cate .pop_nav_wrap .pop_tab_bd {
+    position: relative;
+    overflow: hidden;
+    padding-left: 2px;
+    padding-bottom: 8px;
+    background-color: #910000;
+}
+.tshop-um-dp-cate .pop_nav_wrap .pop_tab_bd a{
+    float: left;
+    display: inline-block;
+    margin-left: 9px;
+    margin-bottom: 4px;
+}
+.tshop-um-dp-cate .pop_nav_wrap a:hover{
+    text-decoration: underline;
+}
+
 
  
+

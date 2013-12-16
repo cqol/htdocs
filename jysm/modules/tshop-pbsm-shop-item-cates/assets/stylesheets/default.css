@@ -30,8 +30,9 @@
 .tshop-pbsm-shop-item-cates .cats-tree .fst-cat-icon {
     width: 9px;
     height: 9px;
-    margin-top: 16px;
-    margin-right: 3px;
+    top: 6px;
+    left: 4px;
+    position: absolute;
     /*background: url(../../assets/images/icon.png) no-repeat -190px -152px;*/
     background: url(../../assets/images/icons.png) no-repeat -306px -128px;
 
@@ -46,6 +47,9 @@
     padding-left: 5px;
     background-color: #e6e6e6;
     line-height: 36px;
+    height: 36px;
+    overflow: hidden;
+    position: relative;
     margin-top: 4px;
 }
 .tshop-pbsm-shop-item-cates .skin-box-bd a{
@@ -73,13 +77,20 @@
 }
 .tshop-pbsm-shop-item-cates .cats-tree .float .fst-cat-hd {
     margin: 0;
-    height: 20px;
+    height: 28px;
     padding: 0;
     line-height: 20px;
-    padding-left: 8px;
     background: none;
     border: none;
 }
 .tshop-pbsm-shop-item-cates .cats-tree .float .fst-cat-bd{
     padding-left: 8px;
+}
+
+.tshop-pbsm-shop-item-cates .cats-tree .fst-cat-name {
+    text-indent: 14px;
+}
+.tshop-pbsm-shop-item-cates .cats-tree .fst-cat-name {
+    display: block;
+    line-height: 36px;
 }

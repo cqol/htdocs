@@ -1,13 +1,78 @@
-/**
- * 模块：tshop-um-dp-sp 
- * 皮肤（主题）: 简约红
- * 规则:
- * 		1. CSS选择器必须包含 ".tshop-um-dp-sp"，禁止使用模块页面元素的ID选择器
- *		2. CSS样式声明的position属性值不能使用:fixed
- *		3. CSS样式文件中z-index属性值必须在1-99之间
- *		4. CSS URL地址必须是淘宝URL白名单中或者本地（相对或绝对）URL 
- */
+.tshop-um-dp-sp {
+    margin-bottom: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    position: relative;
+    z-index: 12;
+}
+.tshop-um-dp-sp .wrap_bd {
+    height: 225px;
+    position: relative;
+    width: 990px;
+}
+.tshop-um-dp-sp .wrap_bd .vido{
+    height: 225px;
+    width: 345px;
+    float: left;
+}
+.tshop-um-dp-sp .wrap_bd .img {
+    width: 642px;
+    height: 225px;
+    float: right;
+}
+.tshop-um-dp-sp .wrap_bd .img ul{
+    width: 650px;
+    overflow: hidden;
+    _zoom: 1;
+}
+.tshop-um-dp-sp .wrap_bd .img li{
+    float: left;
+    height: 225px;
+    width: 212px;
+    margin-right: 2px;
+    overflow: hidden;
+    background-color: #ccc;
+}
+.tshop-um-dp-sp .wrap_bd .img li .alink em{
+    display: block;
+    position: absolute;
+    top: 42px;
+    color: #fff;
+    z-index: 12;
+    font-size: 18px;
+    font-weight: bold;
+    left: 14px;
+    font-family: "微软雅黑";
+}
+.tshop-um-dp-sp .wrap_bd .img li .alink strong{
+    display: block;
+    color: #fff;
+    position: absolute;
+    top: 8px;
+    font-size: 30px;
+    font-weight: normal;
+    font-family: impact;
+    left: 14px;
+    text-transform: uppercase;
+    z-index: 12;
+}
+.tshop-um-dp-sp .wrap_bd .img li .alink{
+    display: block;
+    height: 225px;
+    width: 214px;
+    position: relative;
+    overflow: hidden;
 
-.tshop-um-dp-sp {color:black;}
-
- 
+}
+.tshop-um-dp-sp .wrap_bd .img li img {
+    position: relative;
+    -webkit-transition: all .4s ease-out;
+    -moz-transition: all .4s ease-out;
+    transition: all .4s ease-out;
+}
+.tshop-um-dp-sp .wrap_bd .img li a:hover{
+    text-decoration: none;
+}
+.tshop-um-dp-sp .wrap_bd .img li a:hover img {
+    margin-left: -15px;
+}

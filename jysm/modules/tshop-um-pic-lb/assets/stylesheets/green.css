@@ -1,13 +1,98 @@
-/**
- * 模块：tshop-um-pic-lb 
- * 皮肤（主题）: 简约绿
- * 规则:
- * 		1. CSS选择器必须包含 ".tshop-um-pic-lb"，禁止使用模块页面元素的ID选择器
- *		2. CSS样式声明的position属性值不能使用:fixed
- *		3. CSS样式文件中z-index属性值必须在1-99之间
- *		4. CSS URL地址必须是淘宝URL白名单中或者本地（相对或绝对）URL 
- */
 
 .tshop-um-pic-lb {color:black;}
 
- 
+.tshop-um-pic-lb {
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    z-index: 12;
+}
+
+.tshop-um-pic-lb .mk_bd {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+
+.tshop-um-pic-lb .main {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.tshop-um-pic-lb .main a {
+    width: 990px;
+    height: 400px;
+    display: block;
+    background: url(assets/images/img_01.jpg) no-repeat center center;
+}
+
+.tshop-um-pic-lb .nav1 {
+    height: 28px;
+    position: absolute;
+    bottom: 0;
+    z-index: 9;
+}
+
+.tshop-um-pic-lb .nav1 ul {
+    width: 110%;
+    overflow: hidden;
+}
+
+.tshop-um-pic-lb .nav1 li {
+    height: 28px;
+    margin-right: 1px;
+    text-align: center;
+    line-height: 28px;
+    color: #000;
+    background: #e9ebed;
+    float: left;
+    display: inline;
+    cursor: pointer;
+    opacity: 0.85;
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=85);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=85)";
+}
+
+.tshop-um-pic-lb .nav1 .ks-active {
+    background: #78c942;
+    color: #fff;
+}
+
+.tshop-um-pic-lb .nav2 {
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+    z-index: 9;
+}
+
+.tshop-um-pic-lb .nav2 ul {
+    margin: 0 auto;
+}
+
+.tshop-um-pic-lb .nav2 li {
+    width: 30px;
+    height: 20px;
+    margin: 0 2px;
+    text-align: center;
+    line-height: 20px;
+    color: #000;
+    background: #fff;
+    float: left;
+    cursor: pointer;
+}
+
+.tshop-um-pic-lb .nav2 .ks-active {
+    width: 50px;
+    background: #78c942;
+    color: #fff;
+}
+
+.tshop-um-pic-lb .nav3 {
+    display: none;
+}
+
+

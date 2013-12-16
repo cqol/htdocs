@@ -1,13 +1,293 @@
-/**
- * 模块：tshop-um-dp-ys 
- * 皮肤（主题）: 简约绿
- * 规则:
- * 		1. CSS选择器必须包含 ".tshop-um-dp-ys"，禁止使用模块页面元素的ID选择器
- *		2. CSS样式声明的position属性值不能使用:fixed
- *		3. CSS样式文件中z-index属性值必须在1-99之间
- *		4. CSS URL地址必须是淘宝URL白名单中或者本地（相对或绝对）URL 
- */
+.tshop-um-dp-ys {
+    color: black;
+    position: relative;
+    margin-bottom: 10px;
+    z-index: 12;
+    background-color: #FFF;
+}
 
-.tshop-um-dp-ys {color:black;}
+.tshop-um-dp-ys .wrap_hd{
+    height: 40px;
+    background: #e0e2e5;
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+.tshop-um-dp-ys .wrap_hd .hd_info{
+    line-height: 40px;
+    float: left;
+    color:#000;
+}
+.tshop-um-dp-ys .wrap_hd .hd_more {
+    display: block;
+    width:176px;
+    height:40px;
+    font-size: 12px;
+    float: right;
+    line-height: 40px;
+    text-align: right;
+    padding-right: 10px;
+    color: #fff;
+    background: url(../../assets/images/icons.png) no-repeat -173px -225px;
+    background-color: #96d66b;
+    text-decoration: none;
+}
+.tshop-um-dp-ys .wrap_hd .hd_title {
+    width: 157px;
+    display: block;
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 16px;
+    margin-right: 10px;
+    background: url(../../assets/images/icons.png) no-repeat 0 -225px;
+}
+.tshop-um-dp-ys .wrap_bd {
+    overflow: hidden;
+    width: 990px;
+}
+.tshop-um-dp-ys .wrap_bd ul{
+    width: 1010px;
+    overflow: hidden;
+    _zoom: 1;
 
- 
+}
+.tshop-um-dp-ys .wrap_bd .pro_list .pro_item{
+    width: 305px;
+}
+.tshop-um-dp-ys .wrap_bd .pro_list {
+    float: left;
+    width:317px;
+    margin: 12px 0 12px 13px ;
+    padding-bottom: 4px;
+    border-right: 1px #cccccc solid;
+}
+.tshop-um-dp-ys .img_warp {
+    width:305px;
+    height:305px;
+    position: relative;
+}
+
+.tshop-um-dp-ys .pro_item .img_warp .alink {
+    display: block;
+    width:305px;
+    height:305px;
+    outline: none;
+    padding: 0;
+    margin: 0;
+}
+.tshop-um-dp-ys .pro_list .pro_price {
+    padding-left: 9px;
+    margin-top: 3px;
+    height: 28px;
+}
+.tshop-um-dp-ys .pro_list .pro_price .del{
+    color: #ccc;
+}
+.tshop-um-dp-ys .pro_list .pro_price .price{
+    font-family: "Microsoft YaHei";
+    color: #fa8c2b;
+    font-size: 14px;
+    margin-right: 3px;
+}
+
+.tshop-um-dp-ys .pro_list .pro_price .price span{
+    font-size: 26px;
+}
+.tshop-um-dp-ys .pro_list .alink {
+    color: #000;
+    text-align: left;
+    font-size: 12px;
+    display: block;
+    line-height: 14px;
+    margin: 6px 0;
+    padding: 0 10px;
+}
+.tshop-um-dp-ys .pro_list .btn {
+    padding-left: 9px;
+}
+.tshop-um-dp-ys .pro_list .btn .gd_sc,
+.tshop-um-dp-ys .pro_list .btn .gd_share{
+    margin-top: 2px;
+    background: url(../../assets/images/icons.png) no-repeat;
+
+}
+.tshop-um-dp-ys .pro_list .btn .gd_buy {
+    margin-top: 2px;
+    background-color: #FA8C2B;
+    height: 23px;
+    float: left;
+    line-height: 23px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    width: 98px;
+}
+.tshop-um-dp-ys .pro_list .btn .gd_share {
+    float: left;
+    height: 23px;
+    margin-right: 5px;
+    width: 60px;
+    background-position: -60px -270px;
+}
+.tshop-um-dp-ys .pro_list .btn .gd_sc{
+    margin-right: 5px;
+    display: block;
+    height: 23px;
+    width: 60px;
+    background-position: 0 -270px;
+    float: left;
+}
+
+.tshop-um-dp-ys .img_warp .mark_box .ewm{
+    width:80px;
+    height:80px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #cccccc;
+}
+.tshop-um-dp-ys .img_warp .mark_box .mark{
+    position: absolute;
+    width:305px;
+    height:305px;
+    top: 0;
+    left: 0;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=30);
+    background-color: #ccc;
+    opacity:0.3;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=30)";
+}
+.tshop-um-dp-ys .img_warp .mark_box {
+    display: none;
+    width:305px;
+    height:305px;
+    position: absolute;
+}
+.tshop-um-dp-ys .img_warp .msg .sale s{
+    color: yellow;
+    text-decoration: none;
+    margin-right: 2px;
+}
+.tshop-um-dp-ys .img_warp .msg .sale{
+    display: block;
+    float: left;
+
+    padding-left: 10px;
+}
+.tshop-um-dp-ys .img_warp .msg {
+    overflow: hidden;
+    line-height: 30px;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 30px;
+    width: 100%;
+    background-color: rgba(120, 201, 66, 0.6);
+}
+
+.tshop-um-dp-ys .img_warp .gd_car span{
+    display: block;
+    font-size: 14px;
+    line-height: 32px;
+}
+.tshop-um-dp-ys .img_warp .gd_car {
+    padding-left: 24px;
+    color: #fff;
+    display: block;
+    float: right;
+    line-height: 24px;
+    width: 50px;
+    background: url(../../assets/images/icons.png) no-repeat -103px -53px;
+}
+.tshop-um-dp-ys .img_warp .gd_like {
+    display: block;
+    float: right;
+    height: 30px;
+    width: 100px;
+    background: url(../../assets/images/icons.png) no-repeat -196px -53px;
+}
+.tshop-um-dp-ys .img_warp .gd_like .dig-icon {
+    display: none;
+}
+.tshop-um-dp-ys .img_warp .common-like {
+
+    cursor: pointer;
+    width: 100px;
+    height: 23px;
+    line-height: 30px;
+    padding: 0;
+    border-radius: 0;
+    border: none;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    display: inline-block;
+    color: #fff;
+}
+.tshop-um-dp-ys .img_warp .common-like .dig-count{
+    color: #fff;
+}
+.tshop-um-dp-ys .img_warp .common-like:hover {
+    text-decoration: none;
+    border: none;
+}
+.tshop-um-dp-ys .wrap_bd .ps2 .pro_list{
+    width: 470px;
+}
+.tshop-um-dp-ys .wrap_bd .ps2 .pro_list .pro_item {
+    width: 444px;
+}
+.tshop-um-dp-ys .wrap_bd .ps2 .pro_list .pro_item .img_warp,
+.tshop-um-dp-ys .wrap_bd .ps2 .mark_box,
+.tshop-um-dp-ys .wrap_bd .ps2 .img_warp .alink,
+.tshop-um-dp-ys .wrap_bd .ps2 .mark_box .mark{
+    width: 444px;
+    height: 444px;
+}
+.tshop-um-dp-ys .wrap_bd .ps2 .pro_list {
+    margin: 14px 0 26px 25px;
+}
+
+
+.tshop-um-dp-ys .wrap_bd .ps4 .pro_list {
+    margin: 12px 0 2px 18px;
+}
+
+
+.tshop-um-dp-ys .wrap_bd .ps4 .pro_list{
+    width: 229px;
+}
+.tshop-um-dp-ys .wrap_bd .ps4 .pro_list .pro_item {
+    width: 210px;
+}
+.tshop-um-dp-ys .wrap_bd .ps4 .pro_list .pro_item .img_warp,
+.tshop-um-dp-ys .wrap_bd .ps4 .mark_box,
+.tshop-um-dp-ys .wrap_bd .ps4 .img_warp .alink,
+.tshop-um-dp-ys .wrap_bd .ps4 .mark_box .mark{
+    width: 210px;
+    height: 210px;
+}
+
+
+.tshop-um-dp-ys .wrap_bd .ps5 .pro_list {
+    margin: 12px 0 2px 14px;
+}
+
+
+.tshop-um-dp-ys .wrap_bd .ps5 .pro_list{
+    width: 184px;
+}
+.tshop-um-dp-ys .wrap_bd .ps5 .pro_list .pro_item {
+    width: 170px;
+}
+.tshop-um-dp-ys .wrap_bd .ps5 .pro_list .pro_item .img_warp,
+.tshop-um-dp-ys .wrap_bd .ps5 .mark_box,
+.tshop-um-dp-ys .wrap_bd .ps5 .img_warp .alink,
+.tshop-um-dp-ys .wrap_bd .ps5 .mark_box .mark{
+    width: 170px;
+    height: 170px;
+}
+.tshop-um-dp-ys .wrap_bd .ps5 .pro_list .btn .gd_buy {
+    display: none;
+}

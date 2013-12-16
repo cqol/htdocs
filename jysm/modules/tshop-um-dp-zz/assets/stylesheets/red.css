@@ -1,13 +1,45 @@
-/**
- * 模块：tshop-um-dp-zz 
- * 皮肤（主题）: 简约红
- * 规则:
- * 		1. CSS选择器必须包含 ".tshop-um-dp-zz"，禁止使用模块页面元素的ID选择器
- *		2. CSS样式声明的position属性值不能使用:fixed
- *		3. CSS样式文件中z-index属性值必须在1-99之间
- *		4. CSS URL地址必须是淘宝URL白名单中或者本地（相对或绝对）URL 
- */
+.tshop-um-dp-zz {
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 12;
+}
 
-.tshop-um-dp-zz {color:black;}
+.tshop-um-dp-zz .warp_bd {
+    width: 990px;
+    height: 410px;
+}
 
+.tshop-um-dp-zz .warp_bd a {
+    width: 412px;
+    height: 410px;
+    display: inline-block;
+    float: left;
+}
+.tshop-um-dp-zz .warp_bd .pic_2 {
+    width: 578px;
+    height: 182px;
+}
+.tshop-um-dp-zz .warp_bd .pic_3, .tshop-um-dp-zz .warp_bd .pic_4 {
+    width: 289px;
+    height: 228px;
+}
+
+.tshop-um-dp-zz .warp_bd span {
+    width: 100%;
+    height: 100%;
+    background: #000;
+    display: none;
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=30);
+    opacity: 0.3;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=30)";
+}
+
+.tshop-um-dp-zz .warp_bd:hover span {
+    display: block;
+}
+
+.tshop-um-dp-zz .warp_bd a:hover span {
+    display: none;
+}
  
+

@@ -61,6 +61,7 @@
     height: 225px;
     width: 214px;
     position: relative;
+    overflow: hidden;
 
 }
 .tshop-um-dp-sp .wrap_bd .img li img {
@@ -68,6 +69,9 @@
     -webkit-transition: all .4s ease-out;
     -moz-transition: all .4s ease-out;
     transition: all .4s ease-out;
+}
+.tshop-um-dp-sp .wrap_bd .img li a:hover{
+    text-decoration: none;
 }
 .tshop-um-dp-sp .wrap_bd .img li a:hover img {
     margin-left: -15px;

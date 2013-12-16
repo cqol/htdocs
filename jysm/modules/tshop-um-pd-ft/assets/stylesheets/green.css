@@ -1,13 +1,137 @@
-/**
- * 模块：tshop-um-pd-ft 
- * 皮肤（主题）: 简约绿
- * 规则:
- * 		1. CSS选择器必须包含 ".tshop-um-pd-ft"，禁止使用模块页面元素的ID选择器
- *		2. CSS样式声明的position属性值不能使用:fixed
- *		3. CSS样式文件中z-index属性值必须在1-99之间
- *		4. CSS URL地址必须是淘宝URL白名单中或者本地（相对或绝对）URL 
- */
+.tshop-um-pd-ft {
+    color: black;
+    background-color: #e0e2e5;
+    width: 990px;
+    position: relative;
+    z-index: 12;
+    height: 200px;
+}
+.tshop-um-pd-ft .wrap_hd{
+    width: 990px;
+    overflow: hidden;
+    position: relative;
+    _zoom: 1;
+    padding:16px 0;
+}
+.tshop-um-pd-ft .wrap_hd .ser_item{
+    float: left;
+    height: 46px;
+    width: 150px;
+    margin-left: 28px;
+    _display: inline-block;
+}
 
-.tshop-um-pd-ft {color:black;}
+.tshop-um-pd-ft .wrap_hd .ser_item .msg .sc{
+    display: block;
+    height: 32px;
+    width: 95px;
+    background: url(assets/images/mark_.png) no-repeat center center;
+}
+.tshop-um-pd-ft .wrap_hd .ser_item .msg{
+    float: left;
+    line-height: 16px;
+    padding: 6px 0 6px 8px;
+}
+.tshop-um-pd-ft .wrap_hd .ser_item .icon{
+    background: url(../../assets/images/icons.png) no-repeat;
+    display: block;
+    height: 46px;
+    width: 46px;
+    float: left;
+}
+.tshop-um-pd-ft .wrap_hd .ser_item .icon2{
+    background-position: -200px -465px;
+}
+.tshop-um-pd-ft .wrap_hd .ser_item .icon1{
+    background-position: -200px -419px;
+}
+.tshop-um-pd-ft .wrap_hd .ser_item .icon3{
+    background-position: -200px -511px;
+}
+.tshop-um-pd-ft .wrap_hd .ser_item .icon4{
+    background-position: -200px -557px;
+}
+.tshop-um-pd-ft .wrap_hd .ser_item .icon5{
+    background-position: -200px -603px;
+}
 
- 
+.tshop-um-pd-ft .dp_ww{
+    width:550px;
+    height:20px;
+    padding:5px 10px;
+    margin: 0 auto;
+    margin-top: 10px;
+    line-height:16px;
+    color:#333;
+}
+.tshop-um-pd-ft .dp_ww ul{
+    margin:2px 0;
+    float:left;
+}
+.tshop-um-pd-ft .dp_ww ul li{
+    padding-right:10px;
+    float:left;
+    font-weight: bold;
+}
+.tshop-um-pd-ft .dp_ww span{
+    display:block;
+    float:left;
+}
+.tshop-um-pd-ft .dp_ww img{
+    display:block;
+    float:left;
+}
+.tshop-um-pd-ft .dp_ww .ts{
+    padding:2px 0 2px 30px;
+    float:left;
+}
+
+.tshop-um-pd-ft .dp_active ul{
+    overflow: hidden;
+    _zoom: 1;
+}
+.tshop-um-pd-ft .dp_active {
+    width: 520px;
+    overflow: hidden;
+    height: 67px;
+    _zoom: 1;
+    margin: 0 auto;
+}
+.tshop-um-pd-ft .dp_active li{
+    float: left;
+    margin-right: 6px;
+    margin-top: 4px;
+    list-style: inside;
+}
+.tshop-um-pd-ft .dp_active li a{
+    color: #333;
+}
+.tshop-um-pd-ft .lebo {
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+}
+.tshop-um-pd-ft .lebo a{
+    display: block;
+    width: 103px;
+    height: 103px;
+}
+.tshop-um-pd-ft .ewm{
+    position: absolute;
+    bottom: 40px;
+    right: 35px;
+    height: 85px;
+    width: 190px;
+}
+.tshop-um-pd-ft .ewm p{
+    padding: 20px 0;
+    line-height: 18px;
+    width: 90px;
+    float: right;
+}
+.tshop-um-pd-ft .ewm span{
+    display: block;
+    width: 85px;
+    height: 85px;
+    float: left;
+}

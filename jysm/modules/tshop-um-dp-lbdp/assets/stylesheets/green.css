@@ -1,13 +1,147 @@
-/**
- * 模块：tshop-um-dp-lbdp 
- * 皮肤（主题）: 简约绿
- * 规则:
- * 		1. CSS选择器必须包含 ".tshop-um-dp-lbdp"，禁止使用模块页面元素的ID选择器
- *		2. CSS样式声明的position属性值不能使用:fixed
- *		3. CSS样式文件中z-index属性值必须在1-99之间
- *		4. CSS URL地址必须是淘宝URL白名单中或者本地（相对或绝对）URL 
- */
+.tshop-um-dp-lbdp .wrap_bd {
+    width: 990px;
+    position: relative;
+    overflow: hidden;
+    z-index: 12;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
 
-.tshop-um-dp-lbdp {color:black;}
+.tshop-um-dp-lbdp .wrap_bd .lb_nav li{
+    float: left;
+    height: 60px;
+    line-height: 60px;
+    width: 330px;
+    background: #dadcdf;
+    text-align: center;
+    position: relative;
+    font-size: 18px;
+    font-family: "微软雅黑";
+    cursor: pointer;
+    color: #3e3e3e;
+}
+.tshop-um-dp-lbdp .wrap_bd .lb_nav li .jt{
+    display: none;
+    position: absolute;
 
- 
+    bottom: 0;
+    left: 40px;
+    height: 8px;
+    width: 16px;
+    background: url(../../assets/images/icons.png) no-repeat -228px 0;
+}
+.tshop-um-dp-lbdp .wrap_bd .lb_nav .ks-active{
+    background-color: #78c942;
+    color: #fff;
+}
+.tshop-um-dp-lbdp .wrap_bd .lb_nav .ks-active .jt{
+    display: block;
+}
+
+.tshop-um-dp-lbdp .main {
+    width: 990px;
+    position: relative;
+    overflow: hidden;
+    height: 480px;
+}
+.tshop-um-dp-lbdp .main .item_box {
+    float: left;
+    width: 990px;
+    position: relative;
+}
+.tshop-um-dp-lbdp .main .item_box .big_img{
+    overflow: hidden;
+    _zoom: 1;
+    float: right;
+    width: 363px;
+    height: 480px;
+}
+.tshop-um-dp-lbdp .main .item_box .big_img .alink{
+    width: 363px;
+    height: 480px;
+    display: block;
+}
+.tshop-um-dp-lbdp .item_box .s_item {
+    width: 627px;
+    height: 480px;
+    overflow: hidden;
+}
+.tshop-um-dp-lbdp .item_box .s_item li{
+    float: left;
+    height: 188px;
+    width: 188px;
+    overflow: hidden;
+    position: relative;
+    border: 1px #e9e9e9 solid;
+    margin: 28px 0 22px 14px;
+    _display: inline-block;
+}
+.tshop-um-dp-lbdp .item_box .s_item li .alink{
+    display: block;
+    height: 188px;
+    width: 188px;
+}
+
+.tshop-um-dp-lbdp .item_box .s_item .pop{
+    position: absolute;
+    height: 60px;
+    width: 188px;
+    text-align: center;
+    top: 65px;
+    left: 0;
+    display: none;
+    overflow: hidden;
+    color: #fff;
+}
+
+.tshop-um-dp-lbdp .item_box .s_item li:hover .pop{
+    display: block;
+}
+
+.tshop-um-dp-lbdp .item_box .s_item li .pop .mark {
+    position: absolute;
+    height: 60px;
+    width: 188px;
+    top: 0;
+    left: 0;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+    background-color: #000;
+    opacity:0.5;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=50)";
+}
+.tshop-um-dp-lbdp .item_box .s_item li .pop .price {
+    position: relative;
+    line-height: 14px;
+    margin-top: 14px;
+    font-weight: bold;
+    z-index: 9;
+}
+.tshop-um-dp-lbdp .item_box .s_item li .pop .msg{
+    height: 22px;
+    position: relative;
+    padding-left: 34px;
+    z-index: 9;
+}
+.tshop-um-dp-lbdp .item_box .msg .gd_car {
+    padding-left: 24px;
+    color: #FFF;
+    display: block;
+    float: left;
+    line-height: 22px;
+    width: 40px;
+    background: url(/jysm/assets/images/icons.png) no-repeat -103px -57px;
+}
+.tshop-um-dp-lbdp .item_box .msg .gd_sc {
+    float: left;
+    color: #FFF;
+    padding-left: 24px;
+    text-align: left;
+    line-height: 22px;
+    width: 40px;
+    background: url(/jysm/assets/images/icons.png) no-repeat -252px 4px;
+}
+.tshop-um-dp-lbdp .item_box .msg .gd_car span{
+    display: block;
+    line-height: 22px;
+    text-align: left;
+}

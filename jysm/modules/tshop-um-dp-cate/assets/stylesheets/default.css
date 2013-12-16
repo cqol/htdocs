@@ -1,13 +1,3 @@
-/**
- * ģ�飺tshop-um-dp-cate 
- * Ƥ�������⣩: Ĭ��
- * ����:
- * 		1. CSSѡ��������� ".tshop-um-dp-cate"����ֹʹ��ģ��ҳ��Ԫ�ص�IDѡ����
- *		2. CSS��ʽ������position����ֵ����ʹ��:fixed
- *		3. CSS��ʽ�ļ���z-index����ֵ������1-99֮��
- *		4. CSS URL��ַ�������Ա�URL�����л��߱��أ���Ի��ԣ�URL 
- */
-
 .tshop-um-dp-cate a:hover {
     text-decoration: none;
 }

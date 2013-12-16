@@ -24,16 +24,6 @@
             <section folded="false" title="店招图片">
                 <param readonly="false" ptype="text" name="dz_pic" label="店招图片" formType="text" description="图片地址:990*120"></param>
             </section>
-            <section folded="false" title="分享收藏设置">
-                <param readonly="false" ptype="number" name="sc_show" label="收藏设置" formType="range" description="是否显示收藏">
-                    <option selected="selected" value="0">显示</option>
-                    <option value="1">不显示</option>
-                </param>
-                <param readonly="false" ptype="number" name="fx_show" label="分享设置" formType="range" description="是否显示分享">
-                    <option selected="selected" value="0">显示</option>
-                    <option value="1">不显示</option>
-                </param>
-            </section>
         </group>
         <group title="导航设置">
             <section folded="false" title="导航设置">

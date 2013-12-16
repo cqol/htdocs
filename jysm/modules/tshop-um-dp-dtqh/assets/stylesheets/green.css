@@ -1,13 +1,243 @@
-/**
- * 模块：tshop-um-dp-dtqh 
- * 皮肤（主题）: 简约绿
- * 规则:
- * 		1. CSS选择器必须包含 ".tshop-um-dp-dtqh"，禁止使用模块页面元素的ID选择器
- *		2. CSS样式声明的position属性值不能使用:fixed
- *		3. CSS样式文件中z-index属性值必须在1-99之间
- *		4. CSS URL地址必须是淘宝URL白名单中或者本地（相对或绝对）URL 
- */
+.tshop-um-dp-dtqh {
+    color: black;
+    position: relative;
+    margin-bottom: 10px;
+    background-color: #fff;
+    z-index: 12;
+    overflow: hidden;
+}
 
-.tshop-um-dp-dtqh {color:black;}
+.tshop-um-dp-dtqh .wrap_bd {
+    width: 990px;
+    height: 555px;
+}
 
- 
+.tshop-um-dp-dtqh .wrap_bd .main {
+    width: 827px;
+    height: 555px;
+    overflow: hidden;
+    float: right;
+    font-family: "微软雅黑";
+}
+
+.tshop-um-dp-dtqh  .main li {
+    width: 827px;
+    height: 555px;
+    position: relative;
+    overflow: hidden;
+}
+
+.tshop-um-dp-dtqh  .main li .big_img {
+    float: left;
+}
+
+.tshop-um-dp-dtqh  .main li .big_img a {
+    display: block;
+    height: 555px;
+    width: 491px;
+}
+
+.tshop-um-dp-dtqh  .main .pri_info {
+    width: 335px;
+    height: 555px;
+    float: right;
+}
+
+.tshop-um-dp-dtqh  .main .info_buy {
+    height: 260px;
+    overflow: hidden;
+}
+
+.tshop-um-dp-dtqh  .main .info_buy:hover {
+    background-color: #78c942;
+}
+
+.tshop-um-dp-dtqh  .main .info_buy .alink {
+    font-size: 24px;
+    display: block;
+    margin-top: 40px;
+    color: #333;
+    height: 24px;
+    text-align: center;
+    line-height: 24px;
+}
+
+.tshop-um-dp-dtqh  .main .info_buy .pri_box {
+    height: 50px;
+    margin-top: 26px;
+    overflow: hidden;
+}
+
+.tshop-um-dp-dtqh  .main .info_buy .pri_box .price span {
+    font-size: 12px;
+}
+
+.tshop-um-dp-dtqh  .main .info_buy .pri_box .price {
+    height: 50px;
+    float: left;
+    padding-left: 36px;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.tshop-um-dp-dtqh  .main .info_buy .pri_box .mark_box span {
+    color: #78c942;
+}
+.tshop-um-dp-dtqh .btn .gd_sc,
+.tshop-um-dp-dtqh .btn .gd_buy,
+.tshop-um-dp-dtqh .btn .gd_like,
+.tshop-um-dp-dtqh .btn .gd_share{
+    background: url(../../assets/images/icons.png) no-repeat;
+}
+
+.tshop-um-dp-dtqh .main .btn .gd_like a span{
+    display: none;
+}
+.tshop-um-dp-dtqh .main .btn .gd_like a{
+    background: none;
+    border: none;
+}
+.tshop-um-dp-dtqh .main .btn .gd_like .dig-count {
+    color: #fff;
+    line-height: 23px;
+}
+.tshop-um-dp-dtqh .main .btn .gd_like a.dig-button {
+    display: block;
+    height: 23px;
+    float: left;
+    width: 50px;
+}
+.tshop-um-dp-dtqh .main .btn .gd_like {
+    background-position: -245px -270px;
+    background-color: #fa8c2b;
+    height: 23px;
+    float: left;
+    border: none;
+    padding: 0;
+    line-height: 23px;
+    width: 100px;
+}
+.tshop-um-dp-dtqh .main .btn .gd_share {
+    float: left;
+    height: 23px;
+    margin-right: 5px;
+    width: 60px;
+    background-position: -60px -270px;
+}
+.tshop-um-dp-dtqh .main .btn .gd_sc {
+    margin-right: 5px;
+    display: block;
+    height: 23px;
+    width: 60px;
+    background-position: 0 -270px;
+    float: left;
+}
+
+
+.tshop-um-dp-dtqh .btn .gd_buy {
+    background-position: -120px -360px;
+    display: block;
+    height: 30px;
+    float: left;
+    margin-top: 7px;
+    width: 125px;
+}
+.tshop-um-dp-dtqh .main .info_buy .btn {
+    height: 95px;
+    padding-left: 40px;
+    padding-top: 28px;
+}
+
+.tshop-um-dp-dtqh  .main .info_buy .pri_box .mark_box {
+    float: left;
+    padding-left: 16px;
+    padding-top: 8px;
+    color: #727272;
+}
+.tshop-um-dp-dtqh  .main .info_msg {
+    outline: hidden;
+    color: #333;
+}
+
+.tshop-um-dp-dtqh  .main .info_msg h3{
+    font-weight: normal;
+    padding-left: 12px;
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+.tshop-um-dp-dtqh .main .info_msg .msg_item .tx {
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin-right: 8px;
+}
+.tshop-um-dp-dtqh .main .info_msg .msg_item .name{
+    text-align: right;
+    padding-right: 16px;
+    float: left;
+    color: #8e8e8e;
+    width: 290px;
+    line-height: 30px;
+}
+
+.tshop-um-dp-dtqh .main .info_msg .msg_item .msg{
+    line-height: 16px;
+    height: 50px;
+    width: 250px;
+    float: left;
+}
+.tshop-um-dp-dtqh .main .info_msg .msg_item {
+    height: 96px;
+    width: 310px;
+    padding: 16px 12px 0 12px;
+    position: relative;
+}
+
+.tshop-um-dp-dtqh  .nav {
+    background-color: #cccccc;
+    width: 163px;
+    height: 555px;
+    float: left;
+}
+
+.tshop-um-dp-dtqh  .nav li {
+    height: 139px;
+    position: relative;
+    width: 163px;
+}
+
+.tshop-um-dp-dtqh  .nav li a {
+    display: block;
+    width: 163px;
+    height: 139px;
+    outline: none;
+}
+
+.tshop-um-dp-dtqh  .nav li .jt {
+
+    display: none;
+    height: 16px;
+    width: 8px;
+    position: absolute;
+    right: 0;
+    top: 62px;
+    background: url(../../assets/images/icons.png) no-repeat -220px 0;
+}
+
+.tshop-um-dp-dtqh  .nav .ks-active .jt {
+    display: block;
+}
+
+.tshop-um-dp-dtqh  .nav .ks-active {
+    background-color: #3e8c1c;
+}
+
+.tshop-um-dp-dtqh  .nav .ks-active a {
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+    opacity: 0.5;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=50)";
+    background-color: #3e8c1c;
+}
+
+
+

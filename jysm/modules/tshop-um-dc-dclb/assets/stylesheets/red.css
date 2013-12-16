@@ -1,13 +1,244 @@
-/**
- * 模块：tshop-um-dc-dclb 
- * 皮肤（主题）: 简约红
- * 规则:
- * 		1. CSS选择器必须包含 ".tshop-um-dc-dclb"，禁止使用模块页面元素的ID选择器
- *		2. CSS样式声明的position属性值不能使用:fixed
- *		3. CSS样式文件中z-index属性值必须在1-99之间
- *		4. CSS URL地址必须是淘宝URL白名单中或者本地（相对或绝对）URL 
- */
+.tshop-um-dc-dclb {
+    color: black;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 10px;
+    background-color: #fff;
+    z-index: 12;
+}
 
-.tshop-um-dc-dclb {color:black;}
+.tshop-um-dc-dclb .wrap_bd {
+    width: 790px;
+    height: 442px;
+}
 
- 
+.tshop-um-dc-dclb .wrap_bd .main {
+    width: 660px;
+    height: 442px;
+    float: right;
+    font-family: "microsoft yahei";
+    overflow: hidden;
+}
+
+.tshop-um-dc-dclb  .main li {
+    width: 660px;
+    height: 442px;
+    position: relative;
+    overflow: hidden;
+}
+
+.tshop-um-dc-dclb  .main li .big_img {
+    float: left;
+}
+
+.tshop-um-dc-dclb  .main li .big_img a {
+    display: block;
+    height: 442px;
+    width: 392px;
+}
+
+.tshop-um-dc-dclb  .main .pri_info {
+    width: 268px;
+    height: 442px;
+    float: right;
+}
+
+.tshop-um-dc-dclb  .main .info_buy {
+    height: 210px;
+    overflow: hidden;
+}
+
+.tshop-um-dc-dclb  .main .info_buy:hover {
+    background-color: #9b9b9b;
+}
+
+.tshop-um-dc-dclb  .main .info_buy .alink {
+    font-size: 20px;
+    display: block;
+    margin-top: 16px;
+    color: #333;
+    height: 24px;
+    text-align: center;
+    line-height: 24px;
+}
+
+.tshop-um-dc-dclb  .main .info_buy .pri_box {
+    height: 42px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.tshop-um-dc-dclb  .main .info_buy .pri_box .price span {
+    font-size: 12px;
+}
+
+.tshop-um-dc-dclb  .main .info_buy .pri_box .price {
+    height: 40px;
+    float: left;
+    padding-left: 26px;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.tshop-um-dc-dclb  .main .info_buy .pri_box .mark_box span {
+    color: #1b77d6;
+}
+.tshop-um-dc-dclb .btn .gd_sc,
+.tshop-um-dc-dclb .btn .gd_buy,
+.tshop-um-dc-dclb .btn .gd_like,
+.tshop-um-dc-dclb .btn .gd_share{
+    background: url(../../assets/images/icons.png) no-repeat;
+}
+
+.tshop-um-dc-dclb .main .btn .gd_like a span{
+    display: none;
+}
+.tshop-um-dc-dclb .main .btn .gd_like a{
+    background: none;
+    border: none;
+}
+.tshop-um-dc-dclb .main .btn .gd_like .dig-count {
+    color: #fff;
+    line-height: 23px;
+}
+.tshop-um-dc-dclb .main .btn .gd_like a.dig-button {
+    display: block;
+    height: 23px;
+    float: left;
+    width: 50px;
+}
+.tshop-um-dc-dclb .main .btn .gd_like {
+    background-position: -245px -270px;
+    background-color: #fa8c2b;
+    height: 23px;
+    float: left;
+    border: none;
+    padding: 0;
+    line-height: 23px;
+    width: 100px;
+}
+.tshop-um-dc-dclb .main .btn .gd_share {
+    float: left;
+    height: 23px;
+    margin-right: 5px;
+    width: 60px;
+    background-position: -60px -330px;
+}
+.tshop-um-dc-dclb .main .btn .gd_sc {
+    margin-right: 5px;
+    display: block;
+    height: 23px;
+    width: 60px;
+    background-position: 0 -330px;
+    float: left;
+}
+
+
+.tshop-um-dc-dclb .btn .gd_buy {
+    background-position: -120px -330px;
+    display: block;
+    height: 30px;
+    float: left;
+    margin-top: 7px;
+    width: 125px;
+}
+.tshop-um-dc-dclb .main .info_buy .btn {
+    height: 95px;
+    padding-left: 16px;
+    padding-top: 20px;
+}
+
+.tshop-um-dc-dclb  .main .info_buy .pri_box .mark_box {
+    float: left;
+    padding-left: 16px;
+    padding-top: 8px;
+    color: #727272;
+}
+.tshop-um-dc-dclb  .main .info_msg {
+    outline: hidden;
+    color: #333;
+}
+
+.tshop-um-dc-dclb  .main .info_msg h3{
+    font-weight: normal;
+    padding-left: 12px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.tshop-um-dc-dclb .main .info_msg .msg_item .tx {
+    height: 40px;
+    width: 40px;
+    float: left;
+    margin-right: 8px;
+}
+.tshop-um-dc-dclb .main .info_msg .msg_item .name{
+    text-align: right;
+    padding-right: 10px;
+    float: left;
+    color: #8e8e8e;
+    width: 216px;
+    line-height: 24px;
+}
+
+.tshop-um-dc-dclb .main .info_msg .msg_item .msg{
+    line-height: 14px;
+    height: 40px;
+    width: 180px;
+    overflow: hidden;
+    float: left;
+}
+.tshop-um-dc-dclb .main .info_msg .msg_item {
+    height: 80px;
+    width: 245px;
+    padding: 10px 12px 0 12px;
+    position: relative;
+}
+
+.tshop-um-dc-dclb  .nav {
+    background-color: #cccccc;
+    width: 130px;
+    height: 442px;
+    float: left;
+}
+
+.tshop-um-dc-dclb  .nav li {
+    height: 110px;
+    position: relative;
+    width: 130px;
+}
+
+.tshop-um-dc-dclb  .nav li a {
+    display: block;
+    width: 130px;
+    height: 110px;
+    outline: none;
+}
+
+.tshop-um-dc-dclb  .nav li .jt {
+
+    display: none;
+    height: 16px;
+    width: 8px;
+    position: absolute;
+    right: 0;
+    top: 46px;
+    background: url(../../assets/images/icons.png) no-repeat -220px 0;
+}
+
+.tshop-um-dc-dclb  .nav .ks-active .jt {
+    display: block;
+}
+
+.tshop-um-dc-dclb  .nav .ks-active {
+    background-color: #de1111;
+}
+
+.tshop-um-dc-dclb  .nav .ks-active a {
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+    opacity: 0.5;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=50)";
+    background-color: #de1111;
+}
+
+
+

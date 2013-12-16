@@ -93,12 +93,13 @@
 .tshop-um-pd-ft .dp_active {
     width: 520px;
     overflow: hidden;
+    height: 67px;
     _zoom: 1;
     margin: 0 auto;
 }
 .tshop-um-pd-ft .dp_active li{
     float: left;
-    margin-right: 26px;
+    margin-right: 6px;
     margin-top: 4px;
     list-style: inside;
 }
